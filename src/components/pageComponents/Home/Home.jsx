@@ -1,5 +1,8 @@
 import React from "react";
 
+// syles
+import "./Home.scss";
+
 export const Home = () => {
-  return <div>Home</div>;
+  return <div className="mainContainer">Home</div>;
 };
