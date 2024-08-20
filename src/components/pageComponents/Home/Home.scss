@@ -1,5 +1,15 @@
 @import "../../../stylesConfig/stylesConfig.scss";
 
-.mainContainer {
+.pageContainer {
   height: $pageContainerHeight;
+  display: $flexDisplay;
+  justify-content: $center;
+  align-items: $center;
+
+  div {
+    height: 80%;
+    img {
+      height: $hundredPer;
+    }
+  }
 }

@@ -1,17 +1,15 @@
 .appContainer {
   height: 100vh;
   width: 100vw;
-  background-color: blue;
   display: flex;
   flex-direction: column;
 }
 
 .navbar {
   height: 17.5vh;
-  background-color: aqua;
+  background-color: blue;
 }
 
 .footer {
   height: 7.5vh;
-  background-color: aqua;
 }/*# sourceMappingURL=App.css.map */

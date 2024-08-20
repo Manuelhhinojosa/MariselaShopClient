@@ -10,11 +10,11 @@ import { Home } from "./components/pageComponents/Home/Home";
 function App() {
   return (
     <div className="appContainer">
-      <div className="navbar">navbar</div>
+      <div className="navbar"></div>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
-      <div className="footer">footer</div>
+      <div className="footer"></div>
     </div>
   );
 }
