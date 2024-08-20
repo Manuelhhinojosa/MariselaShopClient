@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 // styles
 import "./Navbar.scss";
 
+// React icons
+import { CiInstagram } from "react-icons/ci";
+import { CiShoppingCart } from "react-icons/ci";
+
 export const Navbar = () => {
   return (
     <div className="navbarContainer">
@@ -33,11 +37,11 @@ export const Navbar = () => {
         <Link className="navbarLink" to="./contact">
           contact
         </Link>
-        <a className="navbarLink" href="">
-          IG
+        <a className="navbarLink" href="https://www.instagram.com/" target="_">
+          <CiInstagram className="icon" />
         </a>
         <Link className="navbarLink" to="./cart">
-          cart
+          <CiShoppingCart className="icon" />
         </Link>
       </div>
     </div>

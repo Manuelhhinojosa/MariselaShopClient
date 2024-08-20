@@ -13,6 +13,7 @@
     display: $flexDisplay;
     flex-direction: $flexDirectionRow;
     justify-content: space-around;
+    align-items: $center;
     color: $navbarTextColor;
   }
 }
@@ -23,11 +24,15 @@
 }
 
 .navbarLink:hover {
-  color: pink;
+  color: $pink;
   font-weight: 300;
   transition: 1s;
 }
 
 .navbarImgContainer {
   font-size: 3rem;
+}
+
+.icon {
+  font-size: 1.5rem;
 }
