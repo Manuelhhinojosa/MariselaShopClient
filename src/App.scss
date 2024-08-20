@@ -1,0 +1,19 @@
+@import "./stylesConfig/stylesConfig.scss";
+
+.appContainer {
+  height: $appContainerHeight;
+  width: $appContainerWidth;
+  background-color: blue;
+  display: $flexDisplay;
+  flex-direction: $flexDirectionColumn;
+}
+
+.navbar {
+  height: 17.5vh;
+  background-color: aqua;
+}
+
+.footer {
+  height: 7.5vh;
+  background-color: aqua;
+}
