@@ -1,0 +1,33 @@
+@import "./../../../stylesConfig/stylesConfig.scss";
+
+.navbarContainer {
+  height: 17.5vh;
+  background-color: $blue;
+  display: $flexDisplay;
+  flex-direction: $flexDirectionRow;
+  align-items: $center;
+  justify-content: space-between;
+
+  div {
+    width: 33%;
+    display: $flexDisplay;
+    flex-direction: $flexDirectionRow;
+    justify-content: space-around;
+    color: $navbarTextColor;
+  }
+}
+
+.navbarLink {
+  color: $navbarTextColor;
+  text-decoration: none;
+}
+
+.navbarLink:hover {
+  color: pink;
+  font-weight: 300;
+  transition: 1s;
+}
+
+.navbarImgContainer {
+  font-size: 3rem;
+}

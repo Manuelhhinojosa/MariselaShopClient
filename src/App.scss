@@ -1,3 +1,5 @@
+// font
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Ubuntu:wght@300;400;500;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import "./stylesConfig/stylesConfig.scss";
 
 .appContainer {
@@ -7,11 +9,7 @@
   flex-direction: $flexDirectionColumn;
 }
 
-.navbar {
-  height: 17.5vh;
-  background-color: blue;
-}
-
 .footer {
   height: 7.5vh;
+  border: 1px solid black;
 }
