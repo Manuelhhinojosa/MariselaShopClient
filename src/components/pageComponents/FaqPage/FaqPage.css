@@ -1,0 +1,30 @@
+.faqPageContainer {
+  height: 77.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faqPageContainer div {
+  height: 90%;
+  width: 50%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.faqPageContainer div div {
+  width: auto;
+  height: auto;
+  margin: 2rem;
+  text-align: justify;
+}
+
+.faqContainer::-webkit-scrollbar {
+  width: 1px;
+}
+
+.faqContainer::-webkit-scrollbar-thumb {
+  background-color: rgb(26, 90, 241);
+}
+
+.faqContainer::-webkit-scrollbar-track {
+  background-color: transparent;
+}/*# sourceMappingURL=FaqPage.css.map */
