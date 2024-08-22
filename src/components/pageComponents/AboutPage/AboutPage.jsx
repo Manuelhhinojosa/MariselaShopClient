@@ -5,6 +5,9 @@ import "./AboutPage.scss";
 
 // images
 import aboutImgUrl from "../../../assets/data/data.js";
+// page text
+
+import aboutPageText from "../../../assets/data/data.js";
 
 export const AboutPage = () => {
   return (
@@ -13,25 +16,7 @@ export const AboutPage = () => {
         <img src={aboutImgUrl.aboutImgUrl} alt="aboutImage" />
       </div>
       <div className="aboutTextContainer">
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
-          porro alias debitis inventore eius reprehenderit ratione similique,
-          nulla consectetur iste velit, ipsum impedit, dolores est tenetur
-          pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Aliquam porro alias debitis inventore eius
-          reprehenderit ratione similique, nulla consectetur iste velit, ipsum
-          impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum
-          dolor, sit amet consectetur adipisicing elit. Aliquam porro alias
-          debitis inventore eius reprehenderit ratione similique, nulla
-          consectetur iste velit, ipsum impedit, dolores est tenetur pariatur
-          deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing
-          elit. Aliquam porro alias debitis inventore eius reprehenderit ratione
-          similique, nulla consectetur iste velit, ipsum impedit, dolores est
-          tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Aliquam porro alias debitis inventore
-          eius reprehenderit ratione similique, nulla consectetur iste velit,
-          ipsum impedit, dolores est tenetur pariatur deserunt vel ad.
-        </p>
+        <p> {aboutPageText.aboutPageText}</p>
       </div>
     </div>
   );
