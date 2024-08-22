@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 
 // components
 import { Home } from "./components/pageComponents/Home/Home";
+import { AboutPage } from "./components/pageComponents/AboutPage/AboutPage";
 import { Navbar } from "./components/generalComoponents/Navbar/Navbar";
 import { Footer } from "./components/generalComoponents/Footer/Footer";
 import { ErrorPage } from "./components/pageComponents/ErrorPage/ErrorPage";
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />

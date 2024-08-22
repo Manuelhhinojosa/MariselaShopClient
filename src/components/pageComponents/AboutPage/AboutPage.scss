@@ -1,0 +1,40 @@
+@import "../../../stylesConfig/stylesConfig.scss";
+
+.aboutPageContainer {
+  height: $pageContainerHeight;
+  display: $flexDisplay;
+  justify-content: $center;
+  align-items: $center;
+
+  div {
+    height: 65%;
+    width: 35%;
+    display: $flexDisplay;
+    justify-content: $center;
+    overflow: hidden;
+    overflow-y: scroll;
+
+    img {
+      height: $oneHundredPer;
+      border-radius: 1rem;
+    }
+
+    p {
+      text-align: justify;
+      margin: 3.5rem;
+      font-weight: 200;
+    }
+  }
+}
+
+.aboutTextContainer::-webkit-scrollbar {
+  width: 1px;
+}
+
+.aboutTextContainer::-webkit-scrollbar-thumb {
+  background-color: $blue;
+}
+
+.aboutTextContainer::-webkit-scrollbar-track {
+  background-color: transparent;
+}

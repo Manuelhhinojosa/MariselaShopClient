@@ -5,9 +5,13 @@
   display: $flexDisplay;
   justify-content: $center;
   align-items: center;
+
+  span {
+    color: $blue;
+  }
 }
 
 .footerIcon {
-  color: gray;
+  color: $blue;
   margin: 1rem;
 }

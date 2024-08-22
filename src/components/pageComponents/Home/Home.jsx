@@ -8,7 +8,7 @@ import homeImgUrl from "../../../assets/data/data.js";
 
 export const Home = () => {
   return (
-    <div className="pageContainer">
+    <div className="homePageContainer">
       <div>
         <img src={homeImgUrl.homeImgUrl} alt="Home-Image" />
       </div>
