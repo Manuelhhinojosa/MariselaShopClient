@@ -1,0 +1,33 @@
+@import "../../../stylesConfig/stylesConfig.scss";
+
+.reviewsPageContainer {
+  height: $pageContainerHeight;
+  display: $flexDisplay;
+  justify-content: $center;
+  align-items: $center;
+
+  div {
+    height: 90%;
+    width: 50%;
+    overflow: hidden;
+    overflow-y: scroll;
+
+    div {
+      height: auto;
+      width: 90%;
+      margin: 2rem;
+    }
+  }
+}
+
+.reviewsContainer::-webkit-scrollbar {
+  width: 1px;
+}
+
+.reviewsContainer::-webkit-scrollbar-thumb {
+  background-color: $blue;
+}
+
+.reviewsContainer::-webkit-scrollbar-track {
+  background-color: transparent;
+}
