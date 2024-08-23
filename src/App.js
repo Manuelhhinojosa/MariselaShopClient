@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 
 // components
 import { Home } from "./components/pageComponents/Home/Home";
+import { Shop } from "./components/pageComponents/Shop/Shop";
 import { AboutPage } from "./components/pageComponents/AboutPage/AboutPage";
 import { FaqPage } from "./components/pageComponents/FaqPage/FaqPage";
 import { ReviewsPage } from "./components/pageComponents/ReviewsPage/ReviewsPage";
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/shop" element={<Shop />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/reviews" element={<ReviewsPage />} />

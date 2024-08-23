@@ -1,8 +1,14 @@
 const homeImgUrl =
   "https://res.cloudinary.com/mangud/image/upload/v1724177494/mariselaShopClient/Screen_Shot_2024-08-20_at_2.10.23_PM_ufc5my.png";
 
+const shopImgUrl =
+  "https://res.cloudinary.com/mangud/image/upload/v1724348584/mariselaShopClient/Screen_Shot_2024-08-22_at_1.42.14_PM_d1v3tj.png";
+
+const shopImgUrl2 =
+  "https://res.cloudinary.com/mangud/image/upload/v1724357164/mariselaShopClient/Screen_Shot_2024-08-22_at_4.05.55_PM_uc965v.png";
+
 const aboutImgUrl =
-  "https://res.cloudinary.com/mangud/image/upload/v1724355457/mariselaShopClient/Screen_Shot_2024-08-22_at_3.37.25_PM_a7vgbk.png";
+  "https://res.cloudinary.com/mangud/image/upload/v1724355625/mariselaShopClient/Screen_Shot_2024-08-22_at_3.40.17_PM_iu57cr.png";
 
 const aboutPageText =
   "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit,ipsum impedit, dolores est tenetur pariatur deserunt vel ad.";
@@ -88,6 +94,8 @@ const reviews = [
 ];
 export default {
   homeImgUrl,
+  shopImgUrl,
+  shopImgUrl2,
   aboutImgUrl,
   aboutPageText,
   questionsAndAnswers,

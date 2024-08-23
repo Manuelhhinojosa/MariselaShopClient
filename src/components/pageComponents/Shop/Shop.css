@@ -1,0 +1,23 @@
+.shopPageContainer {
+  height: 77.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shopPageContainer div {
+  height: 60%;
+  width: 35%;
+  margin: 1rem;
+}
+.shopPageContainer div img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+
+Link {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=Shop.css.map */
