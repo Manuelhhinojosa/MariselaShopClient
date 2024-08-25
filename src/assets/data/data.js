@@ -1,8 +1,11 @@
 const homeImgUrl =
-  "https://res.cloudinary.com/mangud/image/upload/v1724177494/mariselaShopClient/Screen_Shot_2024-08-20_at_2.10.23_PM_ufc5my.png";
+  "https://res.cloudinary.com/mangud/image/upload/v1724348584/mariselaShopClient/Screen_Shot_2024-08-22_at_1.42.14_PM_d1v3tj.png";
+
+const homeImgUrl2 =
+  "https://res.cloudinary.com/mangud/image/upload/v1724357164/mariselaShopClient/Screen_Shot_2024-08-22_at_4.05.55_PM_uc965v.png";
 
 const shopImgUrl =
-  "https://res.cloudinary.com/mangud/image/upload/v1724348584/mariselaShopClient/Screen_Shot_2024-08-22_at_1.42.14_PM_d1v3tj.png";
+  "https://res.cloudinary.com/mangud/image/upload/v1724613457/mariselaShopClient/Screen_Shot_2024-08-25_at_3.17.27_PM_xnxhbs.png";
 
 const shopImgUrl2 =
   "https://res.cloudinary.com/mangud/image/upload/v1724357164/mariselaShopClient/Screen_Shot_2024-08-22_at_4.05.55_PM_uc965v.png";
@@ -94,6 +97,7 @@ const reviews = [
 ];
 export default {
   homeImgUrl,
+  homeImgUrl2,
   shopImgUrl,
   shopImgUrl2,
   aboutImgUrl,

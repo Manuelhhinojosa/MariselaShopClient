@@ -5,9 +5,19 @@
   align-items: center;
 }
 .homePageContainer div {
-  height: 80%;
+  height: 60%;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.homePageContainer div img {
+.homePageContainer div div {
+  height: 90%;
+  width: 45%;
+}
+.homePageContainer div div img {
+  width: 100%;
   height: 100%;
-  border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=Home.css.map */
