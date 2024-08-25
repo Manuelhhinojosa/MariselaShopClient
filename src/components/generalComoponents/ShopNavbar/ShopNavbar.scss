@@ -1,0 +1,26 @@
+@import "../../../stylesConfig/stylesConfig.scss";
+
+.shopNavbarContainer {
+  height: 20%;
+  display: $flexDisplay;
+  justify-content: $center;
+  align-items: $center;
+  border: 1px solid black;
+
+  div {
+    width: 10rem;
+    border: none;
+  }
+}
+
+.shop-links {
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  color: $blue;
+}
+
+.shop-links:hover {
+  border-bottom: 1px solid $blue;
+  transition: 0.5s;
+}

@@ -1,0 +1,23 @@
+.shopNavbarContainer {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.shopNavbarContainer div {
+  width: 10rem;
+  border: none;
+}
+
+.shop-links {
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  color: rgb(26, 90, 241);
+}
+
+.shop-links:hover {
+  border-bottom: 1px solid rgb(26, 90, 241);
+  transition: 0.5s;
+}/*# sourceMappingURL=ShopNavbar.css.map */
