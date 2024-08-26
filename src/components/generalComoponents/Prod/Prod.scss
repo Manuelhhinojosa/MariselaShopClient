@@ -1,7 +1,60 @@
 @import "../../../stylesConfig/stylesConfig.scss";
 
-.prodContainer {
-  background-color: red;
+// J styles
+
+.jContainer {
+  height: 400px;
+  width: 350px;
+  display: $flexDisplay;
+  flex-direction: $flexDirectionColumn;
+}
+
+.imgContainer {
+  height: 75%;
+  width: $oneHundredPer;
+
+  img {
+    height: $oneHundredPer;
+    width: $oneHundredPer;
+    object-fit: cover;
+  }
+}
+
+.textContainer {
+  height: 25%;
+  width: $oneHundredPer;
+  display: $flexDisplay;
+  flex-direction: $flexDirectionRow;
+}
+
+.left {
+  height: $oneHundredPer;
+  width: 60%;
+  font-size: 0.8rem;
+  display: $flexDisplay;
+  flex-direction: $flexDirectionColumn;
+  justify-content: space-evenly;
+  align-items: $center;
+
+  div {
+    text-align: $center;
+  }
+}
+
+.right {
+  height: $oneHundredPer;
+  width: 40%;
+  font-size: 0.8rem;
+  display: $flexDisplay;
+  flex-direction: $flexDirectionColumn;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+//  prints styles
+
+.pContainer {
+  background-color: blue;
   height: 70%;
   width: 25%;
 }

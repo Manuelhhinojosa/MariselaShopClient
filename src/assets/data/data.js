@@ -1,9 +1,13 @@
+// for production
+let isItJ = true;
+
 const homeImgUrl =
   "https://res.cloudinary.com/mangud/image/upload/v1724348584/mariselaShopClient/Screen_Shot_2024-08-22_at_1.42.14_PM_d1v3tj.png";
 
 const homeImgUrl2 =
   "https://res.cloudinary.com/mangud/image/upload/v1724357016/mariselaShopClient/Screen_Shot_2024-08-22_at_4.03.27_PM_j7t4lo.png";
 
+// for production
 const jArr = [
   {
     id: 1,
@@ -18,6 +22,7 @@ const jArr = [
   },
 ];
 
+// for production
 const printsArr = [
   {
     id: 1,
@@ -31,12 +36,15 @@ const printsArr = [
     img2: "https://res.cloudinary.com/mangud/image/upload/v1724685369/mariselaShopClient/Screen_Shot_2024-08-26_at_11.15.58_AM_enynii.png",
   },
 ];
+
 const aboutImgUrl =
   "https://res.cloudinary.com/mangud/image/upload/v1724355625/mariselaShopClient/Screen_Shot_2024-08-22_at_3.40.17_PM_iu57cr.png";
 
+// for production
 const aboutPageText =
   "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit,ipsum impedit, dolores est tenetur pariatur deserunt vel ad.";
 
+// for production
 const questionsAndAnswers = [
   "This is a question?",
   "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
@@ -64,6 +72,7 @@ const questionsAndAnswers = [
   "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. ",
 ];
 
+// for production
 const reviews = [
   {
     review:
@@ -117,6 +126,7 @@ const reviews = [
   },
 ];
 export default {
+  isItJ,
   homeImgUrl,
   homeImgUrl2,
   jArr,
