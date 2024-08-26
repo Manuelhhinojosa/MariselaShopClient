@@ -1,12 +1,11 @@
 @import "../../../stylesConfig/stylesConfig.scss";
 
-// J styles
-
-.jContainer {
+.Container {
   height: 400px;
   width: 350px;
   display: $flexDisplay;
   flex-direction: $flexDirectionColumn;
+  margin: 3rem;
 }
 
 .imgContainer {
@@ -49,12 +48,4 @@
   flex-direction: $flexDirectionColumn;
   justify-content: space-evenly;
   align-items: flex-end;
-}
-
-//  prints styles
-
-.pContainer {
-  background-color: blue;
-  height: 70%;
-  width: 25%;
 }

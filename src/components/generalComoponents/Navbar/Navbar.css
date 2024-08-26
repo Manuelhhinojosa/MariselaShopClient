@@ -1,6 +1,6 @@
 .navbarContainer {
   height: 17.5vh;
-  background-color: rgb(53, 63, 245);
+  background-color: black;
   display: flex;
   flex-direction: row;
   align-items: center;

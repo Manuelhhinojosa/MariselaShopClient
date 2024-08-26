@@ -21,7 +21,7 @@
 }
 
 .reviewsContainer::-webkit-scrollbar-thumb {
-  background-color: rgb(26, 90, 241);
+  background-color: black;
 }
 
 .reviewsContainer::-webkit-scrollbar-track {

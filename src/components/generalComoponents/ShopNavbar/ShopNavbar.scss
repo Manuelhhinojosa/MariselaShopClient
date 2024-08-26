@@ -10,11 +10,10 @@
   div {
     margin: auto;
     border-bottom: 1px solid transparent;
-    color: $blue;
   }
 
   div:hover {
-    border-bottom: 1px solid $blue;
+    border-bottom: 1px solid black;
     transition: 0.5s;
     cursor: pointer;
   }

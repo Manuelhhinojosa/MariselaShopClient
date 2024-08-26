@@ -1,5 +1,8 @@
 import React from "react";
 
+// react router v6
+import { Link } from "react-router-dom";
+
 //styles
 import "./Prod.scss";
 
@@ -11,28 +14,47 @@ import printsArr from "../../../assets/data/data";
 export const Prod = () => {
   return (
     <>
-      {isItJ.isItJ ? (
-        jArr.jArr.map((j) => (
-          <div className="jContainer">
-            <div className="imgContainer">
-              <img src={j.img} alt="" />
-            </div>
-            <div className="textContainer">
-              <div className="left">
-                <div>{j.title}</div>
-                <div>{j.shortDesc}</div>
-                <div>{j.cost}</div>
+      {isItJ.isItJ
+        ? jArr.jArr.map((j) => (
+            <div className="Container">
+              <div className="imgContainer">
+                <Link>
+                  <img src={j.img} alt="" />
+                </Link>
               </div>
-              <div className="right">
-                <div>{j.available ? "available" : "not available"}</div>
-                <div>Add to cart</div>
+              <div className="textContainer">
+                <div className="left">
+                  <div>{j.title}</div>
+                  <div>{j.shortDesc}</div>
+                  <div>{j.cost}</div>
+                </div>
+                <div className="right">
+                  <div>{j.available ? "available" : "not available"}</div>
+                  <div>Add to cart</div>
+                </div>
               </div>
             </div>
-          </div>
-        ))
-      ) : (
-        <div className="pContainer">Print</div>
-      )}
+          ))
+        : printsArr.printsArr.map((p) => (
+            <div className="Container">
+              <div className="imgContainer">
+                <Link>
+                  <img src={p.img} alt="" />
+                </Link>
+              </div>
+              <div className="textContainer">
+                <div className="left">
+                  <div>{p.title}</div>
+                  <div>{p.shortDesc}</div>
+                  <div>{p.cost}</div>
+                </div>
+                <div className="right">
+                  <div>{p.available ? "available" : "not available"}</div>
+                  <div>Add to cart</div>
+                </div>
+              </div>
+            </div>
+          ))}
     </>
   );
 };
