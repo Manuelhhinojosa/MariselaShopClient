@@ -9,6 +9,13 @@
 
   div {
     margin: auto;
-    background-color: red;
+    border-bottom: 1px solid transparent;
+    color: $blue;
+  }
+
+  div:hover {
+    border-bottom: 1px solid $blue;
+    transition: 0.5s;
+    cursor: pointer;
   }
 }

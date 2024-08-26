@@ -4,12 +4,6 @@ const homeImgUrl =
 const homeImgUrl2 =
   "https://res.cloudinary.com/mangud/image/upload/v1724357164/mariselaShopClient/Screen_Shot_2024-08-22_at_4.05.55_PM_uc965v.png";
 
-const shopImgUrl =
-  "https://res.cloudinary.com/mangud/image/upload/v1724613457/mariselaShopClient/Screen_Shot_2024-08-25_at_3.17.27_PM_xnxhbs.png";
-
-const shopImgUrl2 =
-  "https://res.cloudinary.com/mangud/image/upload/v1724357164/mariselaShopClient/Screen_Shot_2024-08-22_at_4.05.55_PM_uc965v.png";
-
 const aboutImgUrl =
   "https://res.cloudinary.com/mangud/image/upload/v1724355625/mariselaShopClient/Screen_Shot_2024-08-22_at_3.40.17_PM_iu57cr.png";
 
@@ -98,8 +92,6 @@ const reviews = [
 export default {
   homeImgUrl,
   homeImgUrl2,
-  shopImgUrl,
-  shopImgUrl2,
   aboutImgUrl,
   aboutPageText,
   questionsAndAnswers,
