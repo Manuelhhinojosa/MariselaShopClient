@@ -1,22 +1,11 @@
 .shopNavbarContainer {
   height: 20%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .shopNavbarContainer div {
-  width: 10rem;
-  border: none;
-}
-
-.shop-links {
-  font-size: 1.5rem;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  color: rgb(26, 90, 241);
-}
-
-.shop-links:hover {
-  border-bottom: 1px solid rgb(26, 90, 241);
-  transition: 0.5s;
+  margin: auto;
+  background-color: red;
 }/*# sourceMappingURL=ShopNavbar.css.map */

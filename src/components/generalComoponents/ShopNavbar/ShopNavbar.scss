@@ -3,23 +3,12 @@
 .shopNavbarContainer {
   height: 20%;
   display: $flexDisplay;
+  flex-direction: $flexDirectionColumn;
   justify-content: $center;
   align-items: $center;
 
   div {
-    width: 10rem;
-    border: none;
+    margin: auto;
+    background-color: red;
   }
-}
-
-.shop-links {
-  font-size: 1.5rem;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  color: $blue;
-}
-
-.shop-links:hover {
-  border-bottom: 1px solid $blue;
-  transition: 0.5s;
 }
