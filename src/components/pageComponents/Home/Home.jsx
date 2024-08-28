@@ -12,10 +12,10 @@ export const Home = () => {
     <div className="homePageContainer">
       <div>
         <div>
-          <img src={homeImgUrl.homeImgUrl} alt="Home-Image" />
+          <img src={homeImgUrl2.homeImgUrl2} alt="Home-Image" />
         </div>
         <div>
-          <img src={homeImgUrl2.homeImgUrl2} alt="Home-Image" />
+          <img src={homeImgUrl.homeImgUrl} alt="Home-Image" />
         </div>
       </div>
     </div>
