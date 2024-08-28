@@ -30,7 +30,7 @@ export const Prod = () => {
                 </div>
                 <div className="right">
                   <div>{j.available ? "available" : "not available"}</div>
-                  <div>Add to cart</div>
+                  <div className="addButton">Add to cart</div>
                 </div>
               </div>
             </div>
@@ -49,7 +49,7 @@ export const Prod = () => {
                   <div>{p.cost}</div>
                 </div>
                 <div className="right">
-                  <div>{p.available ? "available" : "not available"}</div>
+                  <div>{p.available ? "In stock" : "Made to order"}</div>
                   <div>Add to cart</div>
                 </div>
               </div>

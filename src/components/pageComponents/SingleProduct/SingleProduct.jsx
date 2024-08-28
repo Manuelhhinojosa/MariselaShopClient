@@ -27,7 +27,7 @@ export const SingleProduct = () => {
       <div className="shopTextContainer">
         <div>{product[0].title}</div>
         <div>{product[0].cost}</div>
-        <div>{product[0].available ? "Available" : "Not available"}</div>
+        <div>{product[0].available ? "In stock" : "Made to order"}</div>
         <div>{product[0].longDesc}</div>
         <div className="button">Add to cart</div>
         <div className="button">

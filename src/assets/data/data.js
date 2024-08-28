@@ -2,12 +2,13 @@
 let isItJ = false;
 
 const homeImgUrl =
-  "https://res.cloudinary.com/mangud/image/upload/v1724348584/mariselaShopClient/Screen_Shot_2024-08-22_at_1.42.14_PM_d1v3tj.png";
+  "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png";
 
 const homeImgUrl2 =
   "https://res.cloudinary.com/mangud/image/upload/v1724357016/mariselaShopClient/Screen_Shot_2024-08-22_at_4.03.27_PM_j7t4lo.png";
 
 // for production
+// for shop and produ components
 const jArr = [
   {
     id: 1,
@@ -148,7 +149,7 @@ const printsArr = [
 ];
 
 const aboutImgUrl =
-  "https://res.cloudinary.com/mangud/image/upload/v1724355625/mariselaShopClient/Screen_Shot_2024-08-22_at_3.40.17_PM_iu57cr.png";
+  "https://res.cloudinary.com/mangud/image/upload/v1724854078/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.55_AM_yvusv0.png";
 
 // for production
 const aboutPageText =
