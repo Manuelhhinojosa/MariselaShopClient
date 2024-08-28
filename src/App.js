@@ -13,6 +13,7 @@ import { SingleProduct } from "./components/pageComponents/SingleProduct/SingleP
 import { AboutPage } from "./components/pageComponents/AboutPage/AboutPage";
 import { FaqPage } from "./components/pageComponents/FaqPage/FaqPage";
 import { ReviewsPage } from "./components/pageComponents/ReviewsPage/ReviewsPage";
+import { Contact } from "./components/pageComponents/Contact/Contact";
 import { Navbar } from "./components/generalComoponents/Navbar/Navbar";
 import { Footer } from "./components/generalComoponents/Footer/Footer";
 import { ErrorPage } from "./components/pageComponents/ErrorPage/ErrorPage";
@@ -44,6 +45,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/reviews" element={<ReviewsPage />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
