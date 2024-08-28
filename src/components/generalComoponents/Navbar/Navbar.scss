@@ -2,7 +2,6 @@
 
 .navbarContainer {
   height: 17.5vh;
-  // background-color: $blue;
   background-color: black;
   display: $flexDisplay;
   flex-direction: $flexDirectionRow;
@@ -11,6 +10,7 @@
 
   div {
     width: 33%;
+    height: 100%;
     display: $flexDisplay;
     flex-direction: $flexDirectionRow;
     justify-content: space-around;
@@ -23,6 +23,8 @@
 .navbarLink {
   color: $navbarTextColor;
   text-decoration: none;
+  width: 4rem;
+  text-align: $center;
 }
 
 .navbarLink:hover {

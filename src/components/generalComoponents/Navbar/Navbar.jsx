@@ -41,7 +41,7 @@ export const Navbar = () => {
           <CiInstagram className="icon" />
         </a>
         <Link className="navbarLink" to="./cart">
-          <CiShoppingCart className="icon" />
+          <CiShoppingCart className="icon" /> <sup>{0}</sup>
         </Link>
       </div>
     </div>
