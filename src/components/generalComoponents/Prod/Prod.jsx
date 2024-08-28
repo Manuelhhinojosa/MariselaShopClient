@@ -29,7 +29,7 @@ export const Prod = () => {
                   <div>{j.cost}</div>
                 </div>
                 <div className="right">
-                  <div>{j.available ? "available" : "not available"}</div>
+                  <div>{j.available ? "In Stock" : "Made to order"}</div>
                   <div className="addButton">Add to cart</div>
                 </div>
               </div>

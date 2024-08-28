@@ -9,11 +9,10 @@
 
   div {
     margin: auto;
-    border-bottom: 1px solid transparent;
   }
 
   div:hover {
-    border-bottom: 1px solid black;
+    font-weight: 300;
     transition: 0.5s;
     cursor: pointer;
   }

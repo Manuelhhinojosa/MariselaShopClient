@@ -2,7 +2,7 @@
 
 .singleProductComponent {
   height: $pageContainerHeight;
-  width: 100%;
+  width: $oneHundredPer;
   display: $flexDisplay;
   flex-direction: $flexDirectionRow;
 }

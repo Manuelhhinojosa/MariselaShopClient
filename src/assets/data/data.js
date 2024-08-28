@@ -18,8 +18,8 @@ const jArr = [
     longDesc:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     cost: "$100.00",
-    img: "https://res.cloudinary.com/mangud/image/upload/v1724613457/mariselaShopClient/Screen_Shot_2024-08-25_at_3.17.27_PM_xnxhbs.png",
-    img2: "https://res.cloudinary.com/mangud/image/upload/v1724684658/mariselaShopClient/Screen_Shot_2024-08-26_at_11.03.23_AM_xiisrh.png",
+    img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
+    img2: "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png",
   },
   {
     id: 2,
@@ -29,8 +29,8 @@ const jArr = [
     longDesc:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     cost: "$100.00",
-    img: "https://res.cloudinary.com/mangud/image/upload/v1724613457/mariselaShopClient/Screen_Shot_2024-08-25_at_3.17.27_PM_xnxhbs.png",
-    img2: "https://res.cloudinary.com/mangud/image/upload/v1724684658/mariselaShopClient/Screen_Shot_2024-08-26_at_11.03.23_AM_xiisrh.png",
+    img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
+    img2: "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png",
   },
   {
     id: 3,
@@ -40,8 +40,8 @@ const jArr = [
     longDesc:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     cost: "$100.00",
-    img: "https://res.cloudinary.com/mangud/image/upload/v1724613457/mariselaShopClient/Screen_Shot_2024-08-25_at_3.17.27_PM_xnxhbs.png",
-    img2: "https://res.cloudinary.com/mangud/image/upload/v1724684658/mariselaShopClient/Screen_Shot_2024-08-26_at_11.03.23_AM_xiisrh.png",
+    img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
+    img2: "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png",
   },
   {
     id: 4,
@@ -51,8 +51,8 @@ const jArr = [
     longDesc:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     cost: "$100.00",
-    img: "https://res.cloudinary.com/mangud/image/upload/v1724613457/mariselaShopClient/Screen_Shot_2024-08-25_at_3.17.27_PM_xnxhbs.png",
-    img2: "https://res.cloudinary.com/mangud/image/upload/v1724684658/mariselaShopClient/Screen_Shot_2024-08-26_at_11.03.23_AM_xiisrh.png",
+    img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
+    img2: "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png",
   },
   {
     id: 5,
@@ -62,8 +62,8 @@ const jArr = [
     longDesc:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     cost: "$100.00",
-    img: "https://res.cloudinary.com/mangud/image/upload/v1724613457/mariselaShopClient/Screen_Shot_2024-08-25_at_3.17.27_PM_xnxhbs.png",
-    img2: "https://res.cloudinary.com/mangud/image/upload/v1724684658/mariselaShopClient/Screen_Shot_2024-08-26_at_11.03.23_AM_xiisrh.png",
+    img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
+    img2: "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png",
   },
   {
     id: 6,
@@ -73,8 +73,8 @@ const jArr = [
     longDesc:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     cost: "$100.00",
-    img: "https://res.cloudinary.com/mangud/image/upload/v1724613457/mariselaShopClient/Screen_Shot_2024-08-25_at_3.17.27_PM_xnxhbs.png",
-    img2: "https://res.cloudinary.com/mangud/image/upload/v1724684658/mariselaShopClient/Screen_Shot_2024-08-26_at_11.03.23_AM_xiisrh.png",
+    img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
+    img2: "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png",
   },
 ];
 
