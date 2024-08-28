@@ -6,7 +6,8 @@
   align-items: center;
 }
 .shopNavbarContainer div {
-  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .shopNavbarContainer div:hover {
   font-weight: 300;
