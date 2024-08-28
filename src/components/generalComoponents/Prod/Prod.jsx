@@ -18,7 +18,7 @@ export const Prod = () => {
         ? jArr.jArr.map((j) => (
             <div className="Container">
               <div className="imgContainer">
-                <Link>
+                <Link to={`/shop/${j.id}`}>
                   <img src={j.img} alt="" />
                 </Link>
               </div>
@@ -38,7 +38,7 @@ export const Prod = () => {
         : printsArr.printsArr.map((p) => (
             <div className="Container">
               <div className="imgContainer">
-                <Link>
+                <Link to={`/shop/${p.id}`}>
                   <img src={p.img} alt="" />
                 </Link>
               </div>

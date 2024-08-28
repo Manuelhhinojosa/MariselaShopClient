@@ -1,11 +1,15 @@
 import "./App.scss";
 
+// production state
+import data from "../src/assets/data/data";
+
 // React Router V6
 import { Routes, Route } from "react-router-dom";
 
 // components
 import { Home } from "./components/pageComponents/Home/Home";
 import { Shop } from "./components/pageComponents/Shop/Shop";
+import { SingleProduct } from "./components/pageComponents/SingleProduct/SingleProduct";
 import { AboutPage } from "./components/pageComponents/AboutPage/AboutPage";
 import { FaqPage } from "./components/pageComponents/FaqPage/FaqPage";
 import { ReviewsPage } from "./components/pageComponents/ReviewsPage/ReviewsPage";
@@ -20,6 +24,23 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
+
+        {data.jArr.map((prod) => (
+          <Route
+            key={prod.id}
+            path={`/shop/${prod.id}`}
+            element={<SingleProduct />}
+          />
+        ))}
+
+        {data.printsArr.map((prod) => (
+          <Route
+            key={prod.id}
+            path={`/shop/${prod.id}`}
+            element={<SingleProduct />}
+          />
+        ))}
+
         <Route path="/about" element={<AboutPage />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/reviews" element={<ReviewsPage />} />

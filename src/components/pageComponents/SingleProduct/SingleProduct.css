@@ -1,0 +1,59 @@
+.singleProductComponent {
+  height: 77.5vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.imgsContainer {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgsContainer img {
+  height: 70px;
+  width: 70px;
+  margin-top: 1rem;
+}
+
+.singleImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 45%;
+}
+.singleImageContainer img {
+  height: 75%;
+}
+
+.shopTextContainer {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.shopTextContainer div {
+  text-align: justify;
+  margin: 2rem;
+  font-size: 0.9rem;
+}
+
+.button:hover {
+  font-weight: 300;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.backLink {
+  color: black;
+  text-decoration: none;
+}
+
+.backLink:hover {
+  font-weight: 300;
+  transition: 0.3s;
+}/*# sourceMappingURL=SingleProduct.css.map */
