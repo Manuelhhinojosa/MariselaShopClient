@@ -1,5 +1,8 @@
 import React from "react";
 
+// production state
+import data from "../../../assets/data/data";
+
 //React Router 6
 import { Link } from "react-router-dom";
 
@@ -41,7 +44,7 @@ export const Navbar = () => {
           <CiInstagram className="icon" />
         </a>
         <Link className="navbarLink" to="./cart">
-          <CiShoppingCart className="icon" /> <sup>{0}</sup>
+          <CiShoppingCart className="icon" /> <sup>{data.cartCount}</sup>
         </Link>
       </div>
     </div>
