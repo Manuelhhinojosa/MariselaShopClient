@@ -1,5 +1,24 @@
 .cartPageContainer {
   height: 77.5vh;
   width: 100%;
-  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartContainer {
+  height: 40%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.cartContainer div {
+  height: 30%;
+}
+.cartContainer div:nth-child(1) {
+  font-size: 2rem;
+}
+.cartContainer div:nth-child(2) {
+  font-size: 1.5rem;
 }/*# sourceMappingURL=CartComponent.css.map */
