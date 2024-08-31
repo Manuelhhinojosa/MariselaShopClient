@@ -11,18 +11,27 @@ export const CartComponent = () => {
   return (
     <div className="cartPageContainer">
       {data.cartCount === 0 ? (
-        <div className="cartContainer">
+        <div className="emptyCartContainer">
           <div>Shopping cart</div>
           <div>You have nothing in your shopping cart.</div>
           <div>
             <Link className="backLink" to="/shop">
-              {" "}
-              Back to shoppng
+              Back to shopping
             </Link>
           </div>
         </div>
       ) : (
-        <div className="cartContainer">items</div>
+        <div className="fullCartContainer">
+          <div>Shopping cart</div>
+          <div>item</div>
+          <div>
+            <p>subtotal</p>
+            <p>$100.00</p>
+          </div>
+          <div>
+            <Link className="button">Checkout</Link>
+          </div>
+        </div>
       )}
     </div>
   );

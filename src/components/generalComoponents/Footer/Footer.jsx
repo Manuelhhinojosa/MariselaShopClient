@@ -10,7 +10,6 @@ export const Footer = () => {
   return (
     <div className="footerContainer">
       <FaRegCopyright className="footerIcon" />
-
       <span>RIGA 2024</span>
     </div>
   );

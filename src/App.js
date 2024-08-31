@@ -21,7 +21,7 @@ import { ErrorPage } from "./components/pageComponents/ErrorPage/ErrorPage";
 
 function App() {
   return (
-    <div className="appContainer">
+    <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

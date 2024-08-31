@@ -1,7 +1,7 @@
 // for production
 let isItJ = false;
 
-let cartCount = 0;
+let cartCount = 1;
 
 const homeImgUrl =
   "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png";
