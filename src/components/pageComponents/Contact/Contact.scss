@@ -70,3 +70,10 @@
     cursor: pointer;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .formContainer {
+    height: $hundredPer;
+    width: 80%;
+  }
+}

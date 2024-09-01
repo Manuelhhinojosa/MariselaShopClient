@@ -60,4 +60,11 @@
   font-weight: 500;
   transition: 0.5s;
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .formContainer {
+    height: 100%;
+    width: 80%;
+  }
 }/*# sourceMappingURL=Contact.css.map */
