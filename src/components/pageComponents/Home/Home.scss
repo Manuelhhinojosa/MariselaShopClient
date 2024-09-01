@@ -6,6 +6,10 @@
   justify-content: $center;
   align-items: $center;
 
+  .test {
+    display: none;
+  }
+
   div {
     height: 60%;
     width: 70%;
@@ -29,13 +33,16 @@
 @media screen and (max-width: 600px) {
   .homePageContainer {
     div {
-      height: $hundredPer;
-      flex-direction: $flexDirectionColumn;
+      display: none;
+    }
 
-      div {
-        height: 45%;
-        width: $hundredPer;
-      }
+    .test {
+      display: $flexDisplay;
+      height: $hundredPer;
+      width: $hundredPer;
+      background-color: black;
+      color: white;
+      font-size: 5rem;
     }
   }
 }

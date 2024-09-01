@@ -4,6 +4,9 @@
   justify-content: center;
   align-items: center;
 }
+.homePageContainer .test {
+  display: none;
+}
 .homePageContainer div {
   height: 60%;
   width: 70%;
@@ -24,11 +27,14 @@
 
 @media screen and (max-width: 600px) {
   .homePageContainer div {
-    height: 100%;
-    flex-direction: column;
+    display: none;
   }
-  .homePageContainer div div {
-    height: 45%;
+  .homePageContainer .test {
+    display: flex;
+    height: 100%;
     width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 5rem;
   }
 }/*# sourceMappingURL=Home.css.map */
