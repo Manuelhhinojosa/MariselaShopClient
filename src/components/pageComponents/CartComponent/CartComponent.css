@@ -107,11 +107,17 @@
   width: 50%;
   display: flex;
   justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+.subtotalContainer p {
+  margin: 1rem;
 }
 
 .checkoutContainer {
   width: 50%;
-  text-align: end;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .button {
@@ -130,7 +136,6 @@
   }
   .fullCartContainer {
     width: 100%;
-    font-size: 0.8rem;
   }
   .titleContainer {
     text-align: center;
@@ -150,5 +155,13 @@
   }
   .text {
     display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .fullCartContainer {
+    font-size: 0.8rem;
+  }
+  .checkoutContainer {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=CartComponent.css.map */

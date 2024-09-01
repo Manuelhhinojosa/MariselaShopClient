@@ -23,7 +23,7 @@
 .navbarLink {
   color: $navbarTextColor;
   text-decoration: none;
-  width: 4rem;
+  // width: 4rem;
   text-align: $center;
 }
 
@@ -38,4 +38,16 @@
 
 .icon {
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbarContainer {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbarContainer {
+    background-color: white;
+  }
 }

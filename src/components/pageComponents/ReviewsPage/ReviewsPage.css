@@ -32,6 +32,10 @@
   .reviewsPageContainer div {
     height: 100%;
     width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .reviewsPageContainer div {
     font-size: 0.8rem;
   }
 }/*# sourceMappingURL=ReviewsPage.css.map */

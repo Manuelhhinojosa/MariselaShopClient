@@ -37,6 +37,13 @@
     div {
       height: $hundredPer;
       width: $hundredPer;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .reviewsPageContainer {
+    div {
       font-size: 0.8rem;
     }
   }

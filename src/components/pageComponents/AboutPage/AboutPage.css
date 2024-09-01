@@ -14,10 +14,13 @@
 }
 .aboutPageContainer div img {
   height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .aboutPageContainer div p {
   text-align: justify;
-  margin: 0rem 6rem 0rem 6rem;
+  margin: 2rem;
   font-weight: 200;
 }
 
@@ -41,10 +44,14 @@
     width: 100%;
     height: 90%;
     align-items: center;
-    font-size: 0.8rem;
   }
   .aboutPageContainer div:nth-child(2) p {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .aboutPageContainer div:nth-child(2) {
+    font-size: 0.8rem;
   }
 }/*# sourceMappingURL=AboutPage.css.map */

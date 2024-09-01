@@ -40,7 +40,14 @@
     div {
       width: $hundredPer;
       height: 95%;
-      font-size: 0.8rem;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .faqPageContainer {
+      div {
+        font-size: 0.8rem;
+      }
     }
   }
 }

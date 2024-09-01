@@ -36,6 +36,10 @@
   .faqPageContainer div {
     width: 100%;
     height: 95%;
+  }
+}
+@media screen and (max-width: 1000px) and (max-width: 600px) {
+  .faqPageContainer div {
     font-size: 0.8rem;
   }
 }/*# sourceMappingURL=FaqPage.css.map */
