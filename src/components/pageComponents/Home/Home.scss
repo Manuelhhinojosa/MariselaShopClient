@@ -25,3 +25,17 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .homePageContainer {
+    div {
+      height: $hundredPer;
+      flex-direction: $flexDirectionColumn;
+
+      div {
+        height: 45%;
+        width: $hundredPer;
+      }
+    }
+  }
+}

@@ -20,4 +20,15 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .homePageContainer div {
+    height: 100%;
+    flex-direction: column;
+  }
+  .homePageContainer div div {
+    height: 45%;
+    width: 100%;
+  }
 }/*# sourceMappingURL=Home.css.map */
