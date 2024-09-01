@@ -48,7 +48,9 @@ export const CartComponent = () => {
           </div>
 
           <div className="checkoutContainer">
-            <Link className="button">Checkout</Link>
+            <Link to="/checkout" className="button">
+              Checkout
+            </Link>
           </div>
         </div>
       )}

@@ -1,8 +1,9 @@
 .shopNavbarContainer {
   height: 20%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
 }
 .shopNavbarContainer div {

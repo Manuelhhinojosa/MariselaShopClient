@@ -15,6 +15,7 @@ import { FaqPage } from "./components/pageComponents/FaqPage/FaqPage";
 import { ReviewsPage } from "./components/pageComponents/ReviewsPage/ReviewsPage";
 import { Contact } from "./components/pageComponents/Contact/Contact";
 import { CartComponent } from "./components/pageComponents/CartComponent/CartComponent";
+import { CheckoutComponent } from "./components/pageComponents/CheckoutComponent/CheckoutComponent";
 import { Navbar } from "./components/generalComoponents/Navbar/Navbar";
 import { Footer } from "./components/generalComoponents/Footer/Footer";
 import { ErrorPage } from "./components/pageComponents/ErrorPage/ErrorPage";
@@ -48,6 +49,7 @@ function App() {
         <Route path="/reviews" element={<ReviewsPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<CartComponent />} />
+        <Route path="/checkout" element={<CheckoutComponent />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
