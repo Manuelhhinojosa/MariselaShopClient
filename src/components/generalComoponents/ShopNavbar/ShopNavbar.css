@@ -14,4 +14,14 @@
   font-weight: 300;
   transition: 0.5s;
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .shopNavbarContainer {
+    flex-direction: column;
+    height: 15%;
+  }
+  .shopNavbarContainer div:nth-child(2) {
+    display: none;
+  }
 }/*# sourceMappingURL=ShopNavbar.css.map */
