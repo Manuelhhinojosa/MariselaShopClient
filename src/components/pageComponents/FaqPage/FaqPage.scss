@@ -32,3 +32,13 @@
 .faqContainer::-webkit-scrollbar-track {
   background-color: transparent;
 }
+
+@media screen and (max-width: 600px) {
+  .faqPageContainer {
+    align-items: space-between;
+    div {
+      width: $hundredPer;
+      height: 95%;
+    }
+  }
+}
