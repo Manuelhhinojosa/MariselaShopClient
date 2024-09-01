@@ -1,5 +1,5 @@
 // for production
-let isItJ = true;
+let isItJ = false;
 
 let cartCount = 6;
 

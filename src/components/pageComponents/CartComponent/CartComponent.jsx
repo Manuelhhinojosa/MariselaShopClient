@@ -34,7 +34,7 @@ export const CartComponent = () => {
                 </div>
                 <div>
                   <p>{p.title}</p>
-                  <p>{p.shortDesc}</p>
+                  <p className="text">{p.shortDesc}</p>
                 </div>
                 <div>+ {1} -</div>
                 <div>{p.cost}</div>
