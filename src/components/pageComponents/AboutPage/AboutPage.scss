@@ -21,7 +21,6 @@
     p {
       text-align: justify;
       margin: 0rem 6rem 0rem 6rem;
-
       font-weight: 200;
     }
   }
@@ -39,7 +38,7 @@
   background-color: transparent;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .aboutPageContainer {
     div:nth-child(1) {
       display: none;
@@ -48,9 +47,12 @@
     div:nth-child(2) {
       width: 100%;
       height: 90%;
+      align-items: $center;
+      font-size: 0.8rem;
 
       p {
-        margin: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
       }
     }
   }

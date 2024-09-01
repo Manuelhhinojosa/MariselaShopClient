@@ -128,7 +128,7 @@
   color: black;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .emptyCartContainer {
     width: $hundredPer;
     height: 50%;
@@ -141,14 +141,11 @@
 
   .fullCartContainer {
     width: $hundredPer;
+    font-size: 0.8rem;
   }
 
   .titleContainer {
     text-align: $center;
-  }
-
-  div {
-    font-size: 0.8rem;
   }
 
   .itemsCont {

@@ -19,10 +19,11 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .shopNavbarContainer {
     flex-direction: $flexDirectionColumn;
     height: 15%;
+    font-size: 0.8rem;
 
     div:nth-child(2) {
       display: none;

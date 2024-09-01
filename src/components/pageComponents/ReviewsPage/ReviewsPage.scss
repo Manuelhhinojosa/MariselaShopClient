@@ -32,11 +32,12 @@
   background-color: transparent;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .reviewsPageContainer {
     div {
       height: $hundredPer;
       width: $hundredPer;
+      font-size: 0.8rem;
     }
   }
 }

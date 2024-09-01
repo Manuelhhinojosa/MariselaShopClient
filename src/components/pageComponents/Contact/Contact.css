@@ -62,7 +62,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .formContainer {
     height: 100%;
     width: 80%;
