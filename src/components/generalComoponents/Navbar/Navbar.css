@@ -40,9 +40,7 @@
   .navbarContainer {
     font-size: 0.8rem;
   }
-}
-@media screen and (max-width: 600px) {
-  .navbarContainer {
-    background-color: white;
+  .navbarLink {
+    width: 4rem;
   }
 }/*# sourceMappingURL=Navbar.css.map */

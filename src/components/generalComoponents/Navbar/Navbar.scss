@@ -44,10 +44,11 @@
   .navbarContainer {
     font-size: 0.8rem;
   }
+
+  .navbarLink {
+    width: 4rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .navbarContainer {
-    background-color: white;
-  }
 }

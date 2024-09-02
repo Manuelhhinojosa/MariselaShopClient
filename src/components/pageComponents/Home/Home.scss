@@ -40,9 +40,16 @@
       display: $flexDisplay;
       height: $hundredPer;
       width: $hundredPer;
-      background-color: black;
-      color: white;
+      // background-color: black;
+      // color: white;
       font-size: 5rem;
     }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .test {
+    background-color: black;
+    color: white;
   }
 }
