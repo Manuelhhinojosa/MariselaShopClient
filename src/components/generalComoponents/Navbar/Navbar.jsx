@@ -12,10 +12,15 @@ import "./Navbar.scss";
 // React icons
 import { CiInstagram } from "react-icons/ci";
 import { CiShoppingCart } from "react-icons/ci";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 export const Navbar = () => {
   return (
     <div className="navbarContainer">
+      {/*  */}
+      <div className="hamNavar">
+        <Link className="navbarLink">more</Link>
+      </div>
       <div>
         <Link className="navbarLink" to="./">
           home
