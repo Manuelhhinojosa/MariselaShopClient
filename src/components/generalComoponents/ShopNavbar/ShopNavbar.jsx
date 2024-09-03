@@ -8,7 +8,7 @@ export const ShopNavbar = () => {
   return (
     <div className="shopNavbarContainer">
       <div>Prints</div>
-      <div>//</div>
+
       <div>Jewellery</div>
     </div>
   );

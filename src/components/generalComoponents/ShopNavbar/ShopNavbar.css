@@ -7,16 +7,21 @@
   align-items: center;
 }
 .shopNavbarContainer div {
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 10rem;
+  height: 2rem;
   font-weight: 300;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .shopNavbarContainer div:nth-child(1):hover {
   font-weight: 500;
   transition: 0.5s;
   cursor: pointer;
 }
-.shopNavbarContainer div:nth-child(3):hover {
+.shopNavbarContainer div:nth-child(2):hover {
   font-weight: 500;
   transition: 0.5s;
   cursor: pointer;
@@ -26,8 +31,5 @@
   .shopNavbarContainer {
     flex-direction: column;
     height: 15%;
-  }
-  .shopNavbarContainer div:nth-child(2) {
-    display: none;
   }
 }/*# sourceMappingURL=ShopNavbar.css.map */
