@@ -10,10 +10,17 @@
 
   div {
     width: fit-content;
+    font-weight: 300;
   }
 
-  div:hover {
-    font-weight: 300;
+  div:nth-child(1):hover {
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  div:nth-child(3):hover {
+    font-weight: 500;
     transition: 0.5s;
     cursor: pointer;
   }

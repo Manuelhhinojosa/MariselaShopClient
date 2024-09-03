@@ -37,6 +37,7 @@
 
   div {
     text-align: $center;
+    font-weight: 300;
   }
 }
 
@@ -49,8 +50,12 @@
   justify-content: space-evenly;
   align-items: flex-end;
 
-  div:nth-child(2):hover {
+  div {
     font-weight: 300;
+  }
+
+  div:nth-child(2):hover {
+    font-weight: 500;
     transition: 0.5s;
     cursor: pointer;
   }

@@ -9,9 +9,15 @@
 .shopNavbarContainer div {
   width: -moz-fit-content;
   width: fit-content;
-}
-.shopNavbarContainer div:hover {
   font-weight: 300;
+}
+.shopNavbarContainer div:nth-child(1):hover {
+  font-weight: 500;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.shopNavbarContainer div:nth-child(3):hover {
+  font-weight: 500;
   transition: 0.5s;
   cursor: pointer;
 }
