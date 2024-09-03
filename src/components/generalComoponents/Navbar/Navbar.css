@@ -90,6 +90,10 @@
   }
   .navbarContainer .navbarLink {
     font-size: 2rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .navbarContainer div:nth-child(3) {
     display: none;
@@ -99,5 +103,9 @@
   }
   .navbarContainer div:nth-child(5) {
     display: none;
+  }
+  span {
+    font-size: 0.9rem;
+    margin: 0.5rem;
   }
 }/*# sourceMappingURL=Navbar.css.map */
