@@ -19,7 +19,7 @@ import { IoIosCloseCircle } from "react-icons/io";
 
 export const Navbar = () => {
   // state for production
-  const [toggleNavbar, setToggleNavbar] = useState(true);
+  const [toggleNavbar, setToggleNavbar] = useState(false);
 
   // sets toggleNavbar value accordin to the size of the scren
   const handleResize = () => {
