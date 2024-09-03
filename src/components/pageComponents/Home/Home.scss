@@ -11,21 +11,29 @@
   }
 
   div {
-    height: 60%;
-    width: 70%;
+    height: 90%;
+    width: 90%;
     display: $flexDisplay;
-    justify-content: space-around;
+    flex-direction: $flexDirectionColumn;
+    justify-content: $center;
     align-items: $center;
 
-    div {
-      height: 90%;
-      width: 45%;
+    div:nth-child(1) {
+      height: 70%;
+      width: 90%;
 
       img {
         width: 100%;
         height: 100%;
         object-fit: cover;
       }
+    }
+
+    div:nth-child(2) {
+      height: 30%;
+      width: 90%;
+      text-align: justify;
+      font-weight: 300;
     }
   }
 }

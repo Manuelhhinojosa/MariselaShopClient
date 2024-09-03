@@ -17,7 +17,13 @@ export const Home = () => {
           <img src={homeImgUrl2.homeImgUrl2} alt="Home-Image" />
         </div>
         <div>
-          <img src={homeImgUrl.homeImgUrl} alt="Home-Image" />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          dolor dicta? Praesentium tempora quas rem voluptatibus officia facilis
+          mollitia, in quidem veniam molestiae nostrum alias fugiat nihil
+          repudiandae iste at. Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Reprehenderit magnam animi dolor sapiente eum rerum
+          molestiae maxime. Pariatur eum eligendi modi! Laudantium ratione ullam
+          dignissimos. Ullam dicta sequi maxime ut!
         </div>
       </div>
     </div>
