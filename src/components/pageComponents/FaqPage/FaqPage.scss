@@ -6,11 +6,16 @@
   justify-content: $center;
   align-items: $center;
 
-  div {
-    height: 90%;
+  .faqContainer {
+    height: 100%;
     width: 50%;
     overflow: hidden;
     overflow-y: scroll;
+
+    div:nth-child(1) {
+      font-size: 3rem;
+      text-align: center;
+    }
 
     div {
       width: auto;
@@ -38,15 +43,15 @@
   .faqPageContainer {
     align-items: space-between;
 
-    div {
+    .faqContainer {
       width: $hundredPer;
-      height: 95%;
+      height: $hundredPer;
     }
   }
 
   @media screen and (max-width: 600px) {
     .faqPageContainer {
-      div {
+      .faqContainer {
         font-size: 0.8rem;
       }
     }

@@ -38,20 +38,22 @@
 
 @media screen and (max-width: 1000px) {
   .aboutPageContainer div:nth-child(1) {
-    display: none;
+    flex: 1;
+    height: 90%;
   }
   .aboutPageContainer div:nth-child(2) {
-    width: 100%;
+    flex: 2;
     height: 90%;
-    align-items: center;
-  }
-  .aboutPageContainer div:nth-child(2) p {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    align-items: start;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 600px) {
+  .aboutPageContainer div:nth-child(1) {
+    display: none;
+  }
   .aboutPageContainer div:nth-child(2) {
     font-size: 0.8rem;
+    align-items: center;
   }
 }/*# sourceMappingURL=AboutPage.css.map */

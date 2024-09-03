@@ -4,13 +4,17 @@
   justify-content: center;
   align-items: center;
 }
-.faqPageContainer div {
-  height: 90%;
+.faqPageContainer .faqContainer {
+  height: 100%;
   width: 50%;
   overflow: hidden;
   overflow-y: scroll;
 }
-.faqPageContainer div div {
+.faqPageContainer .faqContainer div:nth-child(1) {
+  font-size: 3rem;
+  text-align: center;
+}
+.faqPageContainer .faqContainer div {
   width: auto;
   height: auto;
   margin: 2rem;
@@ -34,13 +38,13 @@
   .faqPageContainer {
     align-items: space-between;
   }
-  .faqPageContainer div {
+  .faqPageContainer .faqContainer {
     width: 100%;
-    height: 95%;
+    height: 100%;
   }
 }
 @media screen and (max-width: 1000px) and (max-width: 600px) {
-  .faqPageContainer div {
+  .faqPageContainer .faqContainer {
     font-size: 0.8rem;
   }
 }/*# sourceMappingURL=FaqPage.css.map */

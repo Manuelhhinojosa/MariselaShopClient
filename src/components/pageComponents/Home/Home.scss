@@ -48,9 +48,14 @@
       display: $flexDisplay;
       height: $hundredPer;
       width: $hundredPer;
-      // background-color: black;
-      // color: white;
       font-size: 5rem;
+
+      span {
+        font-size: 1rem;
+        text-align: justify;
+        margin: 1rem;
+        font-weight: 300;
+      }
     }
   }
 }
@@ -59,5 +64,9 @@
   .test {
     background-color: black;
     color: white;
+
+    span {
+      display: none;
+    }
   }
 }

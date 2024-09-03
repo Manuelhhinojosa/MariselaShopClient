@@ -10,6 +10,7 @@ export const FaqPage = () => {
   return (
     <div className="faqPageContainer">
       <div className="faqContainer">
+        <div>FAQs</div>
         {questionsAndAnswers.questionsAndAnswers.map((el, i) => (
           <div qAC>{el}</div>
         ))}
