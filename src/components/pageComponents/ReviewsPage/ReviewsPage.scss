@@ -7,16 +7,22 @@
   align-items: $center;
 
   div {
-    height: 90%;
+    height: $hundredPer;
     width: 50%;
     overflow: hidden;
     overflow-y: scroll;
+
+    div:nth-child(1) {
+      font-size: 2rem;
+      text-align: center;
+    }
 
     div {
       height: auto;
       width: 90%;
       margin: 2rem;
       font-weight: 300;
+      text-align: justify;
     }
   }
 }

@@ -5,16 +5,21 @@
   align-items: center;
 }
 .reviewsPageContainer div {
-  height: 90%;
+  height: 100%;
   width: 50%;
   overflow: hidden;
   overflow-y: scroll;
+}
+.reviewsPageContainer div div:nth-child(1) {
+  font-size: 2rem;
+  text-align: center;
 }
 .reviewsPageContainer div div {
   height: auto;
   width: 90%;
   margin: 2rem;
   font-weight: 300;
+  text-align: justify;
 }
 
 .reviewsContainer::-webkit-scrollbar {
