@@ -79,16 +79,19 @@
 }
 .itemsCont div:nth-child(2) p {
   margin: 1rem;
+  font-weight: 300;
 }
 .itemsCont div:nth-child(3) {
   height: 12rem;
   flex: 1;
   text-align: center;
+  font-weight: 300;
 }
 .itemsCont div:nth-child(4) {
   height: 12rem;
   flex: 1;
   text-align: end;
+  font-weight: 300;
 }
 
 .cartItemsContainer:nth-child(2)::-webkit-scrollbar {
@@ -112,6 +115,7 @@
 }
 .subtotalContainer p {
   margin: 1rem;
+  font-weight: 300;
 }
 
 .checkoutContainer {
@@ -123,6 +127,12 @@
 .button {
   text-decoration: none;
   color: black;
+  font-weight: 300;
+}
+
+.button:hover {
+  transition: 0.5s;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 1000px) {

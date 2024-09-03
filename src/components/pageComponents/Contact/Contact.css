@@ -41,6 +41,7 @@
   border: none;
   text-align: center;
   border-bottom: 1px solid transparent;
+  font-weight: 300;
 }
 .contactForm textarea:hover {
   border-bottom: 1px solid black;

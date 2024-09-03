@@ -14,6 +14,7 @@
   height: auto;
   width: 90%;
   margin: 2rem;
+  font-weight: 300;
 }
 
 .reviewsContainer::-webkit-scrollbar {
