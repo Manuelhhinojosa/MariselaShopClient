@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 1000px) {
   .navbarContainer {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .navbarLink {
     width: 4rem;
