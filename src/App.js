@@ -8,6 +8,7 @@ import { Routes, Route } from "react-router-dom";
 
 // components
 import { Home } from "./components/pageComponents/Home/Home";
+import { ShopMenuComponent } from "./components/pageComponents/ShopMenuComponent/ShopMenuComponent";
 import { Shop } from "./components/pageComponents/Shop/Shop";
 import { SingleProduct } from "./components/pageComponents/SingleProduct/SingleProduct";
 import { AboutPage } from "./components/pageComponents/AboutPage/AboutPage";
@@ -26,7 +27,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<Shop />} />
+        <Route path="/shopmenu" element={<ShopMenuComponent />} />
+        <Route path="/shopproducts" element={<Shop />} />
 
         {data.jArr.map((prod) => (
           <Route
@@ -35,7 +37,6 @@ function App() {
             element={<SingleProduct />}
           />
         ))}
-
         {data.printsArr.map((prod) => (
           <Route
             key={prod.id}
@@ -43,7 +44,6 @@ function App() {
             element={<SingleProduct />}
           />
         ))}
-
         <Route path="/about" element={<AboutPage />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/reviews" element={<ReviewsPage />} />

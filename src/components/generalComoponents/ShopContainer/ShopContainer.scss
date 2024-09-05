@@ -1,7 +1,7 @@
 @import "../../../stylesConfig/stylesConfig.scss";
 
 .shopContainer {
-  height: 80%;
+  height: $hundredPer;
   overflow: hidden;
   overflow-y: scroll;
   display: $flexDisplay;
@@ -24,6 +24,6 @@
 
 @media screen and (max-width: 1000px) {
   .shopContainer {
-    height: 85%;
+    height: $hundredPer;
   }
 }

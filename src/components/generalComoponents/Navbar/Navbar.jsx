@@ -50,7 +50,7 @@ export const Navbar = () => {
         </Link>
         <Link
           className="navbarLink"
-          to="/shop"
+          to="/shopmenu"
           onClick={() => setToggleNavbar(false)}
         >
           shop
@@ -104,7 +104,7 @@ export const Navbar = () => {
         <Link className="navbarLink" to="./">
           home
         </Link>
-        <Link className="navbarLink" to="./shop">
+        <Link className="navbarLink" to="./shopmenu">
           shop
         </Link>
         <Link className="navbarLink" to="./about">
