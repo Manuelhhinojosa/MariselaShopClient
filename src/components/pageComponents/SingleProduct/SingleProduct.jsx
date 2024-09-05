@@ -18,8 +18,8 @@ export const SingleProduct = () => {
   return (
     <div className="singleProductComponent">
       <div className="imgsContainer">
-        <img src={product[0].img} alt="img" />
-        <img src={product[0].img2} alt="img" />
+        <img className="images" src={product[0].img} alt="img" />
+        <img className="images" src={product[0].img2} alt="img" />
       </div>
       <div className="singleImageContainer">
         <img src={product[0].img} alt="img" />
