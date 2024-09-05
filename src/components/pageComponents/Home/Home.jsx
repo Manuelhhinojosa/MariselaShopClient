@@ -4,9 +4,7 @@ import React from "react";
 import "./Home.scss";
 
 // images
-import homeImgUrl from "../../../assets/data/data.js";
 import homeImgUrl2 from "../../../assets/data/data.js";
-import data from "../../../assets/data/data.js";
 
 export const Home = () => {
   return (
