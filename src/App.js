@@ -14,6 +14,7 @@ import { SingleProduct } from "./components/pageComponents/SingleProduct/SingleP
 import { AboutPage } from "./components/pageComponents/AboutPage/AboutPage";
 import { FaqPage } from "./components/pageComponents/FaqPage/FaqPage";
 import { ReviewsPage } from "./components/pageComponents/ReviewsPage/ReviewsPage";
+import { LoginComponent } from "./components/pageComponents/LoginComponent/LoginComponent";
 import { Contact } from "./components/pageComponents/Contact/Contact";
 import { CartComponent } from "./components/pageComponents/CartComponent/CartComponent";
 import { CheckoutComponent } from "./components/pageComponents/CheckoutComponent/CheckoutComponent";
@@ -47,6 +48,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/reviews" element={<ReviewsPage />} />
+        <Route path="/login" element={<LoginComponent />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<CartComponent />} />
         <Route path="/checkout" element={<CheckoutComponent />} />
