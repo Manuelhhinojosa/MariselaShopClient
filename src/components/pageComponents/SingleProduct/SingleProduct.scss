@@ -50,6 +50,7 @@
   img {
     height: 70%;
     width: 70%;
+    object-fit: cover;
   }
 
   img:hover {
@@ -117,10 +118,12 @@
 
     img {
       height: 90%;
+      width: 60%;
     }
 
     img:hover {
       height: 90%;
+      width: 60%;
       cursor: auto;
     }
   }

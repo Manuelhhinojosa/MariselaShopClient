@@ -45,6 +45,8 @@
 .singleImageContainer img {
   height: 70%;
   width: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .singleImageContainer img:hover {
   height: 95%;
@@ -107,9 +109,11 @@
   }
   .singleImageContainer img {
     height: 90%;
+    width: 60%;
   }
   .singleImageContainer img:hover {
     height: 90%;
+    width: 60%;
     cursor: auto;
   }
   .shopTextContainer {
