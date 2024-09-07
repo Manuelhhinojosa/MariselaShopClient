@@ -25,7 +25,8 @@
   .shopMenuLinkBigScreen div:nth-child(1) {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .shopMenuLinkBigScreen div:nth-child(1) .shopMenuLinkBigScreenLink {
@@ -33,9 +34,10 @@
     color: black;
     font-weight: 300;
     font-size: 2rem;
+    margin: 1rem;
   }
   .shopMenuLinkBigScreen div:nth-child(1) p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .shopMenuLinkBigScreen div:nth-child(1) .shopMenuLinkBigScreenLink:hover {
     font-weight: 500;

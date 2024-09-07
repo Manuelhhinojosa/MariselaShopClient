@@ -30,7 +30,8 @@
     div:nth-child(1) {
       width: 100%;
       display: $flexDisplay;
-      justify-content: space-evenly;
+      flex-direction: $flexDirectionColumn;
+      justify-content: $center;
       align-items: $center;
 
       .shopMenuLinkBigScreenLink {
@@ -38,10 +39,11 @@
         color: black;
         font-weight: 300;
         font-size: 2rem;
+        margin: 1rem;
       }
 
       p {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
 
       .shopMenuLinkBigScreenLink:hover {

@@ -20,7 +20,7 @@ export const ShopMenuComponent = () => {
         >
           prints
         </Link>
-        <p>||</p>
+        <p>***</p>
         <Link
           to="/shopproducts"
           onClick={() => (data.isItJ = true)}
