@@ -7,15 +7,13 @@ import { Link } from "react-router-dom";
 import "./Prod.scss";
 
 // production state
-import isItJ from "../../../assets/data/data";
-import jArr from "../../../assets/data/data";
-import printsArr from "../../../assets/data/data";
+import data from "../../../assets/data/data";
 
 export const Prod = () => {
   return (
     <>
-      {isItJ.isItJ
-        ? jArr.jArr.map((j) => (
+      {data.isItJ
+        ? data.jArr.map((j) => (
             <div className="Container">
               <div className="imgContainer">
                 <Link to={`/shop/${j.id}`}>
@@ -35,7 +33,7 @@ export const Prod = () => {
               </div>
             </div>
           ))
-        : printsArr.printsArr.map((p) => (
+        : data.printsArr.map((p) => (
             <div className="Container">
               <div className="imgContainer">
                 <Link to={`/shop/${p.id}`}>

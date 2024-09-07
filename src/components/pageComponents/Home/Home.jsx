@@ -4,7 +4,7 @@ import React from "react";
 import "./Home.scss";
 
 // images
-import homeImgUrl2 from "../../../assets/data/data.js";
+import data from "../../../assets/data/data.js";
 
 export const Home = () => {
   return (
@@ -23,7 +23,7 @@ export const Home = () => {
       </div>
       <div>
         <div>
-          <img src={homeImgUrl2.homeImgUrl2} alt="Home-Image" />
+          <img src={data.homeImgUrl2} alt="Home-Image" />
         </div>
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,

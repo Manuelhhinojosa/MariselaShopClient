@@ -4,14 +4,14 @@ import React from "react";
 import "./ReviewsPage.scss";
 
 // text data
-import reviews from "../../../assets/data/data";
+import data from "../../../assets/data/data";
 
 export const ReviewsPage = () => {
   return (
     <div className="reviewsPageContainer">
       <div className="reviewsContainer">
         <div>Client's reviews</div>
-        {reviews.reviews.map((el, i) => (
+        {data.reviews.map((el, i) => (
           <div key={i}>
             "{el.review}" By {el.author}
           </div>

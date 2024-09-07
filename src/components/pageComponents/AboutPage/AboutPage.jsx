@@ -3,20 +3,17 @@ import React from "react";
 // styles
 import "./AboutPage.scss";
 
-// images
-import aboutImgUrl from "../../../assets/data/data.js";
-// page text
-
-import aboutPageText from "../../../assets/data/data.js";
+// data
+import data from "../../../assets/data/data.js";
 
 export const AboutPage = () => {
   return (
     <div className="aboutPageContainer">
       <div>
-        <img src={aboutImgUrl.aboutImgUrl} alt="aboutImage" />
+        <img src={data.aboutImgUrl} alt="aboutImage" />
       </div>
       <div className="aboutTextContainer">
-        <p> {aboutPageText.aboutPageText}</p>
+        <p> {data.aboutPageText}</p>
       </div>
     </div>
   );

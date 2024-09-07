@@ -2,7 +2,7 @@
 
 let isItJ = false;
 
-let cartCount = 0;
+let cartCount = 6;
 
 const homeImgUrl =
   "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png";
@@ -239,7 +239,7 @@ const reviews = [
     author: "First Last",
   },
 ];
-export default {
+const data = {
   isItJ,
   cartCount,
   homeImgUrl,
@@ -251,3 +251,5 @@ export default {
   questionsAndAnswers,
   reviews,
 };
+
+export default data;
