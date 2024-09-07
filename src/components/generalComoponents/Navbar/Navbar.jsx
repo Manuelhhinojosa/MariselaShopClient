@@ -76,6 +76,15 @@ export const Navbar = () => {
         >
           reviews
         </Link>
+
+        <Link
+          className="navbarLink"
+          to="/login"
+          onClick={() => setToggleNavbar(false)}
+        >
+          login
+        </Link>
+
         <Link
           className="navbarLink"
           to="/contact"
@@ -121,6 +130,9 @@ export const Navbar = () => {
       <div className="navbarImgContainer">RIGA</div>
 
       <div>
+        <Link className="navbarLink" to="./login">
+          login
+        </Link>
         <Link className="navbarLink" to="./contact">
           contact
         </Link>
