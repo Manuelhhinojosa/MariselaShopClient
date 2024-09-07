@@ -27,3 +27,10 @@
     height: $hundredPer;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .shopContainer {
+    height: 98%;
+    margin-top: 2%;
+  }
+}

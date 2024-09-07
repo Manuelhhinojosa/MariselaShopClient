@@ -24,4 +24,10 @@
   .shopContainer {
     height: 100%;
   }
+}
+@media screen and (max-width: 600px) {
+  .shopContainer {
+    height: 98%;
+    margin-top: 2%;
+  }
 }/*# sourceMappingURL=ShopContainer.css.map */
