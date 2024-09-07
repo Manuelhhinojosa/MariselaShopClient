@@ -1,17 +1,19 @@
 // for production
 
+// shop component
 let isItJ = false;
 
+// cart component
 let cartCount = 6;
 
+// home component
 const homeImgUrl =
   "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png";
 
 const homeImgUrl2 =
   "https://res.cloudinary.com/mangud/image/upload/v1724357016/mariselaShopClient/Screen_Shot_2024-08-22_at_4.03.27_PM_j7t4lo.png";
 
-// for production
-// for shop and produ components
+// for shop and product components
 const jArr = [
   {
     id: 1,
@@ -81,7 +83,6 @@ const jArr = [
   },
 ];
 
-// for production
 const printsArr = [
   {
     id: 7,
@@ -151,14 +152,14 @@ const printsArr = [
   },
 ];
 
+// for About component
 const aboutImgUrl =
   "https://res.cloudinary.com/mangud/image/upload/v1724854078/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.55_AM_yvusv0.png";
 
-// for production
 const aboutPageText =
   "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit,ipsum impedit, dolores est tenetur pariatur deserunt vel ad.";
 
-// for production
+// for FAQ compnent
 const questionsAndAnswers = [
   "This is a question?",
   "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
@@ -186,7 +187,7 @@ const questionsAndAnswers = [
   "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam porro alias debitis inventore eius reprehenderit ratione similique, nulla consectetur iste velit, ipsum impedit, dolores est tenetur pariatur deserunt vel ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. ",
 ];
 
-// for production
+// for reviews component
 const reviews = [
   {
     review:
@@ -239,6 +240,7 @@ const reviews = [
     author: "First Last",
   },
 ];
+
 const data = {
   isItJ,
   cartCount,

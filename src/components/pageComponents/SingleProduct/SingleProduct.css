@@ -31,6 +31,9 @@
   width: 70px;
   margin-top: 1rem;
 }
+.imgsContainer img:hover {
+  cursor: pointer;
+}
 
 .singleImageContainer {
   display: flex;
@@ -40,7 +43,14 @@
   width: 50%;
 }
 .singleImageContainer img {
-  height: 75%;
+  height: 70%;
+  width: 70%;
+}
+.singleImageContainer img:hover {
+  height: 95%;
+  width: 95%;
+  cursor: zoom-in;
+  transition: 0.5s;
 }
 
 .shopTextContainer {
@@ -97,6 +107,10 @@
   }
   .singleImageContainer img {
     height: 90%;
+  }
+  .singleImageContainer img:hover {
+    height: 90%;
+    cursor: auto;
   }
   .shopTextContainer {
     width: 100%;

@@ -33,6 +33,10 @@
     width: 70px;
     margin-top: 1rem;
   }
+
+  img:hover {
+    cursor: pointer;
+  }
 }
 
 .singleImageContainer {
@@ -41,9 +45,18 @@
   align-items: $center;
   height: 100%;
   width: 50%;
+  //
 
   img {
-    height: 75%;
+    height: 70%;
+    width: 70%;
+  }
+
+  img:hover {
+    height: 95%;
+    width: 95%;
+    cursor: zoom-in;
+    transition: 0.5s;
   }
 }
 
@@ -104,6 +117,11 @@
 
     img {
       height: 90%;
+    }
+
+    img:hover {
+      height: 90%;
+      cursor: auto;
     }
   }
 

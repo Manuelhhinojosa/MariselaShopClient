@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+// for production
+import { useState } from "react";
 
 // styles
 import "./SingleProduct.scss";
@@ -15,14 +17,30 @@ export const SingleProduct = () => {
 
   const product = allProds.filter((p) => p.id == id);
 
+  const [isImg1, setIsImg1] = useState(true);
+
   return (
     <div className="singleProductComponent">
       <div className="imgsContainer">
-        <img className="images" src={product[0].img} alt="img" />
-        <img className="images" src={product[0].img2} alt="img" />
+        <img
+          className="images"
+          src={product[0].img}
+          alt="img"
+          onClick={() => setIsImg1(true)}
+        />
+        <img
+          className="images"
+          src={product[0].img2}
+          alt="img"
+          onClick={() => setIsImg1(false)}
+        />
       </div>
       <div className="singleImageContainer">
-        <img src={product[0].img} alt="img" />
+        {isImg1 ? (
+          <img src={product[0].img} alt="img" />
+        ) : (
+          <img src={product[0].img2} alt="img" />
+        )}
       </div>
       <div className="shopTextContainer">
         <div>{product[0].title}</div>
