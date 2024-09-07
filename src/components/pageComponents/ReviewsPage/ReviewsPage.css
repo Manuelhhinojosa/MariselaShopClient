@@ -43,5 +43,12 @@
 @media screen and (max-width: 600px) {
   .reviewsPageContainer div {
     font-size: 0.8rem;
+    height: 98%;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  .reviewsPageContainer div div {
+    margin-left: auto;
+    margin-right: auto;
   }
 }/*# sourceMappingURL=ReviewsPage.css.map */
