@@ -17,7 +17,7 @@ export const CartComponent = () => {
             You have nothing in your shopping cart.
           </div>
           <div className="backCont">
-            <Link className="backLink" to="/shop">
+            <Link className="backLink" to="/shopmenu">
               Back to shopping
             </Link>
           </div>
