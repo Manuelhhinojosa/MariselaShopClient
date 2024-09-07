@@ -7,7 +7,8 @@
   align-items: $center;
 
   div {
-    height: $hundredPer;
+    height: 98%;
+    margin-top: 2%;
     width: 50%;
     overflow: hidden;
     overflow-y: scroll;
@@ -52,8 +53,6 @@
   .reviewsPageContainer {
     div {
       font-size: 0.8rem;
-      height: 98%;
-      margin-top: 2%;
       justify-content: $center;
 
       div {

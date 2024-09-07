@@ -1,7 +1,8 @@
 @import "../../../stylesConfig/stylesConfig.scss";
 
 .shopContainer {
-  height: $hundredPer;
+  height: 98%;
+  margin-top: 2%;
   overflow: hidden;
   overflow-y: scroll;
   display: $flexDisplay;

@@ -112,6 +112,7 @@
   justify-content: space-between;
   background-color: black;
   color: white;
+  margin-top: 1rem;
 }
 .subtotalContainer p {
   margin: 1rem;
@@ -165,6 +166,9 @@
   }
   .text {
     display: none;
+  }
+  .subtotalContainer {
+    margin-right: 1rem;
   }
 }
 @media screen and (max-width: 600px) {

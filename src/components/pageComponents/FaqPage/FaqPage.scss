@@ -7,7 +7,8 @@
   align-items: $center;
 
   .faqContainer {
-    height: 100%;
+    margin-top: 2%;
+    height: 98%;
     width: 50%;
     overflow: hidden;
     overflow-y: scroll;
@@ -45,7 +46,6 @@
 
     .faqContainer {
       width: $hundredPer;
-      height: $hundredPer;
     }
   }
 
@@ -53,8 +53,6 @@
     .faqPageContainer {
       .faqContainer {
         font-size: 0.8rem;
-        margin-top: 2%;
-        height: 98%;
       }
     }
   }

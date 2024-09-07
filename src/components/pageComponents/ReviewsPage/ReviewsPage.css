@@ -5,7 +5,8 @@
   align-items: center;
 }
 .reviewsPageContainer div {
-  height: 100%;
+  height: 98%;
+  margin-top: 2%;
   width: 50%;
   overflow: hidden;
   overflow-y: scroll;
@@ -43,8 +44,6 @@
 @media screen and (max-width: 600px) {
   .reviewsPageContainer div {
     font-size: 0.8rem;
-    height: 98%;
-    margin-top: 2%;
     justify-content: center;
   }
   .reviewsPageContainer div div {
