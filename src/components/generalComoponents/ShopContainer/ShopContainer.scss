@@ -2,7 +2,6 @@
 
 .shopContainer {
   height: 98%;
-  margin-top: 2%;
   overflow: hidden;
   overflow-y: scroll;
   display: $flexDisplay;
@@ -21,17 +20,4 @@
 
 .shopContainer::-webkit-scrollbar-track {
   background-color: transparent;
-}
-
-@media screen and (max-width: 1000px) {
-  .shopContainer {
-    height: $hundredPer;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .shopContainer {
-    height: 98%;
-    margin-top: 2%;
-  }
 }

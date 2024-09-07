@@ -2,4 +2,7 @@
 
 .shopPageContainer {
   height: $pageContainerHeight;
+  display: $flexDisplay;
+  justify-content: $center;
+  align-items: $center;
 }

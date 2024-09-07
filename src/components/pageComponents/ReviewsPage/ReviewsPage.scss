@@ -8,7 +8,8 @@
 
   div {
     height: 98%;
-    margin-top: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     width: 50%;
     overflow: hidden;
     overflow-y: scroll;
@@ -43,7 +44,6 @@
 @media screen and (max-width: 1000px) {
   .reviewsPageContainer {
     div {
-      height: $hundredPer;
       width: $hundredPer;
     }
   }

@@ -5,7 +5,8 @@
   align-items: center;
 }
 .faqPageContainer .faqContainer {
-  margin-top: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   height: 98%;
   width: 50%;
   overflow: hidden;
