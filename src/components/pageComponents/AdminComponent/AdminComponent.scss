@@ -40,7 +40,8 @@
   height: $hundredPer;
   display: $flexDisplay;
   flex-direction: $flexDirectionColumn;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  //   background-color: red;
   overflow: hidden;
   overflow-y: scroll;
 }
