@@ -5,3 +5,132 @@
   height: $pageContainerHeight;
   display: flex;
 }
+
+.adminNavbarContainer {
+  flex: 1;
+  height: $hundredPer;
+  display: $flexDisplay;
+  flex-direction: $flexDirectionColumn;
+  align-items: $center;
+  justify-content: center;
+
+  div {
+    font-weight: 300;
+    width: fit-content;
+    margin: 1rem;
+    text-align: center;
+  }
+
+  div:hover {
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+}
+
+.mainAdminContainer {
+  flex: 4;
+  height: 98%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.allProductsContainer {
+  width: $hundredPer;
+  height: $hundredPer;
+  display: $flexDisplay;
+  flex-direction: $flexDirectionColumn;
+  justify-content: space-evenly;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.allProductsTitleContainer {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.allProductsContainer::-webkit-scrollbar {
+  width: 1px;
+}
+
+.allProductsContainer::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+.allProductsContainer::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.prodContainer {
+  display: $flexDisplay;
+  flex-direction: $flexDirectionColumn;
+  align-items: $center;
+  height: auto;
+  margin: 1rem;
+}
+
+.imgContainer {
+  height: 350px;
+  width: 350px;
+  background-color: yello;
+  margin-bottom: 1rem;
+  display: $flexDisplay;
+  justify-content: $center;
+}
+
+.textProdContainer {
+  width: $hundredPer;
+  height: 100px;
+  display: $flexDisplay;
+}
+
+.leftProdContainer {
+  flex: 2;
+  display: $flexDisplay;
+  flex-direction: $flexDirectionColumn;
+  align-items: $center;
+  justify-content: space-between;
+
+  div {
+    text-align: $center;
+  }
+}
+
+.rightProdContainer {
+  flex: 1;
+  display: $flexDisplay;
+  flex-direction: $flexDirectionColumn;
+  align-items: $center;
+  justify-content: space-between;
+
+  div:nth-child(2) {
+    color: yellowgreen;
+    font-weight: 300;
+  }
+
+  div:nth-child(2):hover {
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  div:nth-child(3) {
+    color: red;
+    font-weight: 300;
+  }
+
+  div:nth-child(3):hover {
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+}
+
+.longDescContainer {
+  padding: 1rem;
+  width: $hundredPer;
+  height: auto;
+  text-align: justify;
+}
