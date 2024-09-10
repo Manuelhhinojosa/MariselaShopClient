@@ -106,7 +106,24 @@ export const AdminComponent = () => {
         {allProducts === false &&
         addProduct === false &&
         viewOrders === true ? (
-          <div>view all orders</div>
+          <div className="ordersContainer">
+            <div className="ordersTitle">Orders</div>
+            {data.orders.map((order) => (
+              <div className="orderContainer">
+                <div>***</div>
+                <div>{`date: ${order.date}`}</div>
+                <div>{`order id: ${order.id}`}</div>
+                <div>{`product id: ${order.productId}`}</div>
+                <div>{`name of the product: ${order.productName}`}</div>
+                <div>{`type: ${order.type}`}</div>
+                <div>{`cost: ${order.cost}`}</div>
+                <div>{`name of the client: ${order.nameOfClient}`}</div>
+                <div>{`client's address: ${order.adress}`}</div>
+                <div>{`order status: ${order.status}`}</div>
+                <div>***</div>
+              </div>
+            ))}
+          </div>
         ) : (
           ""
         )}
