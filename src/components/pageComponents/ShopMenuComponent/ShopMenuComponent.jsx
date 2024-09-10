@@ -20,7 +20,7 @@ export const ShopMenuComponent = () => {
         >
           prints
         </Link>
-
+        ***
         <Link
           to="/shopproducts"
           onClick={() => (data.isItJ = true)}
@@ -29,6 +29,7 @@ export const ShopMenuComponent = () => {
           jewellery
         </Link>
       </div>
+
       <div>
         <Link
           className="shopMenuLink"

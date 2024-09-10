@@ -10,7 +10,7 @@ export const FaqPage = () => {
   return (
     <div className="faqPageContainer">
       <div className="faqContainer">
-        <div>FAQs</div>
+        <div>faqs</div>
         {data.questionsAndAnswers.map((el, i) => (
           <div qAC>{el}</div>
         ))}

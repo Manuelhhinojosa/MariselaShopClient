@@ -81,6 +81,7 @@ export const AdminComponent = () => {
               <input type="file" name="files" id="files" />
               <input type="text" placeholder="available?" />
               <input type="text" placeholder="title" />
+              <input type="text" placeholder="type" />
               <textarea
                 placeholder="short description"
                 name="shortDesc"
@@ -96,7 +97,7 @@ export const AdminComponent = () => {
                 rows="10"
               ></textarea>
               <input type="text" placeholder="cost" />
-              <button>add product</button>
+              <button onClick={(e) => e.preventDefault()}>add product</button>
             </form>
           </div>
         ) : (
@@ -107,7 +108,7 @@ export const AdminComponent = () => {
         addProduct === false &&
         viewOrders === true ? (
           <div className="ordersContainer">
-            <div className="ordersTitle">Orders</div>
+            <div className="ordersTitle">orders</div>
             {data.orders.map((order) => (
               <div className="orderContainer">
                 <div>***</div>

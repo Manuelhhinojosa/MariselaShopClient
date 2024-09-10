@@ -12,19 +12,19 @@ export const CartComponent = () => {
     <div className="cartPageContainer">
       {data.cartCount === 0 ? (
         <div className="emptyCartContainer">
-          <div className="titleCont">Shopping cart</div>
+          <div className="titleCont">shopping cartt</div>
           <div className="messageCont">
-            You have nothing in your shopping cart.
+            you have nothing in your shopping cart.
           </div>
           <div className="backCont">
             <Link className="backLink" to="/shopmenu">
-              Back to shopping
+              back to shopping
             </Link>
           </div>
         </div>
       ) : (
         <div className="fullCartContainer">
-          <div className="titleContainer">Shopping cart</div>
+          <div className="titleContainer">shopping cart</div>
 
           <div className="cartItemsContainer">
             {data.printsArr.map((p) => (
@@ -49,7 +49,7 @@ export const CartComponent = () => {
 
           <div className="checkoutContainer">
             <Link to="/checkout" className="button">
-              Checkout
+              checkout
             </Link>
           </div>
         </div>

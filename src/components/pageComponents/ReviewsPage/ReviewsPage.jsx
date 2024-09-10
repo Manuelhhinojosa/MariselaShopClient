@@ -10,7 +10,7 @@ export const ReviewsPage = () => {
   return (
     <div className="reviewsPageContainer">
       <div className="reviewsContainer">
-        <div>Client's reviews</div>
+        <div>reviews</div>
         {data.reviews.map((el, i) => (
           <div key={i}>
             "{el.review}" By {el.author}
