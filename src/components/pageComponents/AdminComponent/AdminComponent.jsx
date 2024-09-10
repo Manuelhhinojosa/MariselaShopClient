@@ -91,13 +91,7 @@ export const AdminComponent = () => {
                 type="text"
                 placeholder="is it a print or a jewellery piece?"
               />
-              <textarea
-                placeholder="write short description"
-                name="shortDesc"
-                id="shortDesc"
-                cols="10"
-                rows="10"
-              ></textarea>
+              <input type="text" placeholder="write a short description" />
               <textarea
                 placeholder="write a long description"
                 name="longtDesc"
@@ -106,7 +100,9 @@ export const AdminComponent = () => {
                 rows="10"
               ></textarea>
               <input type="text" placeholder="what is the final price?" />
-              <button onClick={(e) => e.preventDefault()}>add product</button>
+              <button id="addProdId" onClick={(e) => e.preventDefault()}>
+                add product
+              </button>
             </form>
           </div>
         ) : (

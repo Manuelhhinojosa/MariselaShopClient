@@ -218,4 +218,27 @@
 .orderContainer div {
   margin: 0.5rem;
   font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .adiminComponentConatainer {
+    flex-direction: column;
+  }
+  .adminNavbarContainer {
+    height: 20vh;
+  }
+  .mainAdminContainer {
+    height: 57.5vh;
+  }
+  .allProductsContainer {
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 600px) {
+  .adiminComponentConatainer {
+    font-size: 0.8rem;
+  }
+  #addProdId {
+    color: black;
+  }
 }/*# sourceMappingURL=AdminComponent.css.map */
