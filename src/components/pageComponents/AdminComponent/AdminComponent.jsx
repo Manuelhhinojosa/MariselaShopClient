@@ -76,7 +76,29 @@ export const AdminComponent = () => {
         {allProducts === false &&
         addProduct === true &&
         viewOrders === false ? (
-          <div className="addProductContainer">add product</div>
+          <div className="addProductContainer">
+            <form>
+              <input type="file" name="files" id="files" />
+              <input type="text" placeholder="available?" />
+              <input type="text" placeholder="title" />
+              <textarea
+                placeholder="short description"
+                name="shortDesc"
+                id="shortDesc"
+                cols="10"
+                rows="10"
+              ></textarea>
+              <textarea
+                placeholder="long description"
+                name="longtDesc"
+                id="longDesc"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <input type="text" placeholder="cost" />
+              <button>add product</button>
+            </form>
+          </div>
         ) : (
           ""
         )}
