@@ -4,5 +4,11 @@ import React from "react";
 import "./AdminNavbar.scss";
 
 export const AdminNavbar = () => {
-  return <div className="adminNavbarContainer">Admin navbar</div>;
+  return (
+    <div className="adminNavbarContainer">
+      <div>see all products</div>
+      <div>add a product</div>
+      <div>view orders</div>
+    </div>
+  );
 };

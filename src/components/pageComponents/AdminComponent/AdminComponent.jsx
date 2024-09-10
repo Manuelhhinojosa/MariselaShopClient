@@ -5,13 +5,13 @@ import "./AdminComponent.scss";
 
 // general components
 import { AdminNavbar } from "../../generalComoponents/AdminNavbar/AdminNavbar";
-import { CreateProductComponent } from "../../generalComoponents/CreateProductComponent/CreateProductComponent";
+import { MainAdminComponent } from "../../generalComoponents/MainAdminComponent/MainAdminComponent";
 
 export const AdminComponent = () => {
   return (
     <div className="adiminComponentConatainer">
       <AdminNavbar />
-      <CreateProductComponent />
+      <MainAdminComponent />
     </div>
   );
 };

@@ -2,6 +2,22 @@
 
 .adminNavbarContainer {
   flex: 1;
-  background-color: red;
   height: $hundredPer;
+  display: $flexDisplay;
+  flex-direction: $flexDirectionColumn;
+  align-items: $center;
+  justify-content: center;
+
+  div {
+    font-weight: 300;
+    width: fit-content;
+    margin: 1rem;
+    text-align: center;
+  }
+
+  div:hover {
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+  }
 }
