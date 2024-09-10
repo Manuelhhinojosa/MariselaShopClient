@@ -30,16 +30,15 @@
   outline: none;
 }
 .loginComponentContainer div form button {
-  height: 2rem;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 1rem;
   border: none;
-  background-color: transparent;
-  font-weight: 300;
-  color: black;
 }
-.loginComponentContainer div form button:hover {
+.loginComponentContainer div form .loginBtn {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+.loginComponentContainer div form .loginBtn:hover {
   font-weight: 500;
   transition: 0.3s;
   cursor: pointer;

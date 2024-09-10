@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // styles
 import "./LoginComponent.scss";
@@ -25,7 +26,11 @@ export const LoginComponent = () => {
             placeholder="password"
             autoComplete="off"
           />
-          <button onClick={handleSignIn}>login</button>
+          <button onClick={handleSignIn}>
+            <Link to="/admin" className="loginBtn">
+              Login
+            </Link>
+          </button>
         </form>
       </div>
     </div>
