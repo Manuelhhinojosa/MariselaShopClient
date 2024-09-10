@@ -15,12 +15,31 @@ export const AdminComponent = () => {
   const [addProduct, setAddProduct] = useState(false);
   const [viewOrders, setViewOrders] = useState(false);
 
+  // production functions
+  const showAllProds = () => {
+    setAllProducts(true);
+    setAddProduct(false);
+    setViewOrders(false);
+  };
+
+  const showAddProduct = () => {
+    setAllProducts(false);
+    setAddProduct(true);
+    setViewOrders(false);
+  };
+
+  const showViewOrders = () => {
+    setAllProducts(false);
+    setAddProduct(false);
+    setViewOrders(true);
+  };
+
   return (
     <div className="adiminComponentConatainer">
       <div className="adminNavbarContainer">
-        <div>see all products</div>
-        <div>add a product</div>
-        <div>view orders</div>
+        <div onClick={() => showAllProds()}>see all products</div>
+        <div onClick={() => showAddProduct()}>add a product</div>
+        <div onClick={() => showViewOrders()}>view orders</div>
       </div>
 
       <div className="mainAdminContainer">
@@ -57,7 +76,7 @@ export const AdminComponent = () => {
         {allProducts === false &&
         addProduct === true &&
         viewOrders === false ? (
-          <div>add product</div>
+          <div className="addProductContainer">add product</div>
         ) : (
           ""
         )}
