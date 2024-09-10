@@ -47,7 +47,7 @@ export const AdminComponent = () => {
         addProduct === false &&
         viewOrders === false ? (
           <div className="allProductsContainer">
-            <div className="allProductsTitleContainer ">all products</div>
+            <div className="allProductsTitleContainer">all products</div>
             {allProductsArr.map((prod) => (
               <div className="prodContainer">
                 <div className="imgContainer">
@@ -79,24 +79,33 @@ export const AdminComponent = () => {
           <div className="addProductContainer">
             <form>
               <input type="file" name="files" id="files" />
-              <input type="text" placeholder="available?" />
-              <input type="text" placeholder="title" />
-              <input type="text" placeholder="type" />
+              <input
+                type="text"
+                placeholder="is it in stock or made to order?"
+              />
+              <input
+                type="text"
+                placeholder="what is the name of the product?"
+              />
+              <input
+                type="text"
+                placeholder="is it a print or a jewellery piece?"
+              />
               <textarea
-                placeholder="short description"
+                placeholder="write short description"
                 name="shortDesc"
                 id="shortDesc"
                 cols="10"
                 rows="10"
               ></textarea>
               <textarea
-                placeholder="long description"
+                placeholder="write a long description"
                 name="longtDesc"
                 id="longDesc"
                 cols="30"
                 rows="10"
               ></textarea>
-              <input type="text" placeholder="cost" />
+              <input type="text" placeholder="what is the final price?" />
               <button onClick={(e) => e.preventDefault()}>add product</button>
             </form>
           </div>

@@ -60,6 +60,10 @@
   background-color: transparent;
 }
 
+.allProductsTitleContainer {
+  font-size: 3rem;
+}
+
 .prodContainer {
   display: flex;
   flex-direction: column;
