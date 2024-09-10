@@ -1,1 +1,8 @@
 @import "../../../stylesConfig/stylesConfig.scss";
+
+.adiminComponentConatainer {
+  background-color: aqua;
+  width: $hundredPer;
+  height: $pageContainerHeight;
+  display: flex;
+}

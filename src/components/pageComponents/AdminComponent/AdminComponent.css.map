@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"AdminComponent.css"}
+{"version":3,"sources":["AdminComponent.scss","../../../stylesConfig/stylesConfig.scss","AdminComponent.css"],"names":[],"mappings":"AAEA;EACE,sBAAA;EACA,WCGW;EDFX,cCHoB;EDIpB,aAAA;AEDF","file":"AdminComponent.css"}

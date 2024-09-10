@@ -5,5 +5,5 @@ import React from "react";
 import "./AdminComponent.scss";
 
 export const AdminComponent = () => {
-  return <div>AdminComponent</div>;
+  return <div className="adiminComponentConatainer">AdminComponent</div>;
 };
