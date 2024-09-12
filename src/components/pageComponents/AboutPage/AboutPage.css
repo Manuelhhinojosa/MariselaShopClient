@@ -20,7 +20,7 @@
 }
 .aboutPageContainer div p {
   text-align: justify;
-  margin: 2rem;
+  margin: 0rem 2rem 0rem 2rem;
   font-weight: 300;
 }
 
@@ -44,8 +44,7 @@
   }
   .aboutPageContainer div:nth-child(2) {
     flex: 2;
-    height: 90%;
-    align-items: start;
+    height: 75%;
     justify-content: center;
   }
 }
