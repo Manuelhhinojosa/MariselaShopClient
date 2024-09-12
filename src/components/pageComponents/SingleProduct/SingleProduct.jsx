@@ -1,23 +1,28 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
-// for production
-import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+
+// redux
+import { useSelector, useDispatch } from "react-redux";
+import { toggleShowfirstImgSingleProd } from "../../../redux/slices/staticState/logicSlice";
 
 // styles
 import "./SingleProduct.scss";
 
-// production state
-import data from "../../../assets/data/data";
-const allProds = data.jArr.concat(data.printsArr);
-
 export const SingleProduct = () => {
+  // redux || state || reducers
+  const dispatch = useDispatch();
+  const productsArrs = useSelector((state) => state.productsStateSlice);
+  const logic = useSelector((state) => state.LogicSlice);
+  const allProductsArr = productsArrs.jewelleryArr.concat(
+    productsArrs.printsArr
+  );
+
+  // identifying ID of product
   let location = useLocation();
   const id = location.pathname.slice(6);
 
-  const product = allProds.filter((p) => p.id == id);
-
-  const [isImg1, setIsImg1] = useState(true);
+  // obtaining the product from the array of all products
+  const product = allProductsArr.filter((p) => p.id == id);
 
   return (
     <div className="singleProductComponent">
@@ -26,17 +31,17 @@ export const SingleProduct = () => {
           className="images"
           src={product[0].img}
           alt="img"
-          onClick={() => setIsImg1(true)}
+          onClick={() => dispatch(toggleShowfirstImgSingleProd())}
         />
         <img
           className="images"
           src={product[0].img2}
           alt="img"
-          onClick={() => setIsImg1(false)}
+          onClick={() => dispatch(toggleShowfirstImgSingleProd())}
         />
       </div>
       <div className="singleImageContainer">
-        {isImg1 ? (
+        {logic.showfirstImgSingleProd ? (
           <img src={product[0].img} alt="img" />
         ) : (
           <img src={product[0].img2} alt="img" />
