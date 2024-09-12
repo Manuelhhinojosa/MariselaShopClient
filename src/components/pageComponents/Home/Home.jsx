@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 import "./Home.scss";
 
 export const Home = () => {
-  // redux || state
+  // redux || state || reducers
   const staticImages = useSelector((state) => state.imagesSlice);
   const staticText = useSelector((state) => state.textSlice);
 

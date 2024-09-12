@@ -12,7 +12,7 @@ export const SingleProduct = () => {
   // redux || state || reducers
   const dispatch = useDispatch();
   const productsArrs = useSelector((state) => state.productsStateSlice);
-  const logic = useSelector((state) => state.LogicSlice);
+  const logic = useSelector((state) => state.logicSlice);
   const allProductsArr = productsArrs.jewelleryArr.concat(
     productsArrs.printsArr
   );
