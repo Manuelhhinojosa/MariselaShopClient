@@ -3,17 +3,21 @@ import React from "react";
 // react router v6
 import { Link } from "react-router-dom";
 
+// redux
+import { useSelector } from "react-redux";
+
 //styles
 import "./Prod.scss";
 
-// production state
-import data from "../../../assets/data/data";
-
 export const Prod = () => {
+  // redux || state || reducers
+  const logic = useSelector((state) => state.logicSlice);
+  const productsArrs = useSelector((state) => state.productsStateSlice);
+
   return (
     <>
-      {data.isItJ
-        ? data.jArr.map((j) => (
+      {logic.showJewellery
+        ? productsArrs.jelleryArr.map((j) => (
             <div className="Container">
               <div className="imgContainer">
                 <Link to={`/shop/${j.id}`}>
@@ -33,7 +37,7 @@ export const Prod = () => {
               </div>
             </div>
           ))
-        : data.printsArr.map((p) => (
+        : productsArrs.printsArr.map((p) => (
             <div className="Container">
               <div className="imgContainer">
                 <Link to={`/shop/${p.id}`}>

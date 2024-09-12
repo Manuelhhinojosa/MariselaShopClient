@@ -4,16 +4,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // redux
-import { useSelector } from "react-redux";
-
-// mock data
-import data from "../../../assets/data/data";
+import { useSelector, useDispatch } from "react-redux";
+import { toggleRenderJewellery } from "../../../redux/slices/staticState/logicSlice";
 
 // styles
 import "./ShopMenuComponent.scss";
 
 export const ShopMenuComponent = () => {
-  // redux || state
+  // redux || state || reducers
+  const dispatch = useDispatch();
   const staticImages = useSelector((state) => state.imagesSlice);
 
   return (
@@ -21,7 +20,7 @@ export const ShopMenuComponent = () => {
       <div>
         <Link
           to="/shopproducts"
-          onClick={() => (data.isItJ = false)}
+          onClick={() => dispatch(toggleRenderJewellery())}
           className="shopMenuLinkBigScreenLink"
         >
           prints
@@ -29,7 +28,7 @@ export const ShopMenuComponent = () => {
         ***
         <Link
           to="/shopproducts"
-          onClick={() => (data.isItJ = true)}
+          onClick={() => dispatch(toggleRenderJewellery())}
           className="shopMenuLinkBigScreenLink"
         >
           jewellery
@@ -40,7 +39,7 @@ export const ShopMenuComponent = () => {
         <Link
           className="shopMenuLink"
           to="/shopproducts"
-          onClick={() => (data.isItJ = false)}
+          onClick={() => dispatch(toggleRenderJewellery())}
         >
           <img src={staticImages.mainShopMenuImageImageUrl} alt="linkImaage" />
         </Link>
@@ -49,7 +48,7 @@ export const ShopMenuComponent = () => {
         <Link
           className="shopMenuLink"
           to="/shopproducts"
-          onClick={() => (data.isItJ = true)}
+          onClick={() => dispatch(toggleRenderJewellery())}
         >
           <img src={staticImages.mainShopMenuImageImageUrl2} alt="linkImaage" />
         </Link>
