@@ -1,39 +1,29 @@
 import React from "react";
 
+// redux
+import { useSelector } from "react-redux";
+
 // syles
 import "./Home.scss";
 
-// images
-import data from "../../../assets/data/data.js";
-
 export const Home = () => {
+  // redux || state
+  const homeTitle = useSelector((state) => state.home.homeTitle);
+  const homeImg = useSelector((state) => state.home.homeUrl);
+  const homeText = useSelector((state) => state.home.homeText);
+
   return (
     <div className="homePageContainer">
       <div className="test">
-        RIGA
-        <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-          dolor dicta? Praesentium tempora quas rem voluptatibus officia facilis
-          mollitia, in quidem veniam molestiae nostrum alias fugiat nihil
-          repudiandae iste at. Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Reprehenderit magnam animi dolor sapiente eum rerum
-          molestiae maxime. Pariatur eum eligendi modi! Laudantium ratione ullam
-          dignissimos. Ullam dicta sequi maxime ut!
-        </span>
+        {homeTitle}
+        <span>{homeText}</span>
       </div>
       <div>
         <div>
-          <img src={data.homeImgUrl2} alt="Home-Image" />
+          {/* <img src={data.homeImgUrl2} alt="Home-Image" /> */}
+          <img src={homeImg} alt="Home-Image" />
         </div>
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-          dolor dicta? Praesentium tempora quas rem voluptatibus officia facilis
-          mollitia, in quidem veniam molestiae nostrum alias fugiat nihil
-          repudiandae iste at. Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Reprehenderit magnam animi dolor sapiente eum rerum
-          molestiae maxime. Pariatur eum eligendi modi! Laudantium ratione ullam
-          dignissimos. Ullam dicta sequi maxime ut!
-        </div>
+        <div>{homeText}</div>
       </div>
     </div>
   );
