@@ -8,19 +8,20 @@ import "./Home.scss";
 
 export const Home = () => {
   // redux || state
-  const homeState = useSelector((state) => state.homeState);
+  const staticImages = useSelector((state) => state.imagesSlice);
+  const staticText = useSelector((state) => state.textSlice);
 
   return (
     <div className="homePageContainer">
       <div className="test">
-        {homeState.homeTitle}
-        <span>{homeState.homeText}</span>
+        {staticText.homeTitle}
+        <span>{staticText.homeText}</span>
       </div>
       <div>
         <div>
-          <img src={homeState.homeUrl} alt="Home-Image" />
+          <img src={staticImages.homeImageUrl} alt="Home-Image" />
         </div>
-        <div>{homeState.homeText}</div>
+        <div>{staticText.homeText}</div>
       </div>
     </div>
   );

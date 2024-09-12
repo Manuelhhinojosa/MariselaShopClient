@@ -1,10 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 
 // reducers
-import homeSlice from "./slices/homeSlice";
+import imagesSlice from "./slices/staticState/imagesSlice";
+import textSlice from "./slices/staticState/textSlice";
 
 export default configureStore({
   reducer: {
-    homeState: homeSlice,
+    imagesSlice: imagesSlice,
+    textSlice: textSlice,
   },
 });
