@@ -3,13 +3,19 @@ import React from "react";
 // React Router
 import { Link } from "react-router-dom";
 
-// production data
+// redux
+import { useSelector } from "react-redux";
+
+// mock data
 import data from "../../../assets/data/data";
 
 // styles
 import "./ShopMenuComponent.scss";
 
 export const ShopMenuComponent = () => {
+  // redux || state
+  const staticImages = useSelector((state) => state.imagesSlice);
+
   return (
     <div className="shopMenuLinkBigScreen">
       <div>
@@ -36,7 +42,7 @@ export const ShopMenuComponent = () => {
           to="/shopproducts"
           onClick={() => (data.isItJ = false)}
         >
-          <img src={data.homeImgUrl2} alt="linkImaage" />
+          <img src={staticImages.mainShopMenuImageImageUrl} alt="linkImaage" />
         </Link>
       </div>
       <div>
@@ -45,7 +51,7 @@ export const ShopMenuComponent = () => {
           to="/shopproducts"
           onClick={() => (data.isItJ = true)}
         >
-          <img src={data.homeImgUrl} alt="linkImaage" />
+          <img src={staticImages.mainShopMenuImageImageUrl2} alt="linkImaage" />
         </Link>
       </div>
     </div>
