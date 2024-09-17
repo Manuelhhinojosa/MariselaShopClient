@@ -14,6 +14,7 @@ export const productsStateSlice = createSlice({
         cost: "$100.00",
         img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
         img2: "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png",
+        stock: 0,
       },
       {
         id: 2,
@@ -25,6 +26,7 @@ export const productsStateSlice = createSlice({
         cost: "$100.00",
         img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
         img2: "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png",
+        stock: 10,
       },
       {
         id: 3,
@@ -36,6 +38,7 @@ export const productsStateSlice = createSlice({
         cost: "$100.00",
         img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
         img2: "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png",
+        stock: 0,
       },
       {
         id: 4,
@@ -47,6 +50,7 @@ export const productsStateSlice = createSlice({
         cost: "$100.00",
         img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
         img2: "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png",
+        stock: 0,
       },
       {
         id: 5,
@@ -58,6 +62,7 @@ export const productsStateSlice = createSlice({
         cost: "$100.00",
         img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
         img2: "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png",
+        stock: 0,
       },
       {
         id: 6,
@@ -69,6 +74,7 @@ export const productsStateSlice = createSlice({
         cost: "$100.00",
         img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
         img2: "https://res.cloudinary.com/mangud/image/upload/v1724854077/mariselaShopClient/Screen_Shot_2024-08-28_at_10.06.14_AM_kxt4cz.png",
+        stock: 0,
       },
     ],
 
@@ -83,6 +89,7 @@ export const productsStateSlice = createSlice({
         cost: "$100.00",
         img: "https://res.cloudinary.com/mangud/image/upload/v1724357016/mariselaShopClient/Screen_Shot_2024-08-22_at_4.03.27_PM_j7t4lo.png",
         img2: "https://res.cloudinary.com/mangud/image/upload/v1724685369/mariselaShopClient/Screen_Shot_2024-08-26_at_11.15.58_AM_enynii.png",
+        stock: 0,
       },
       {
         id: 8,
@@ -94,6 +101,7 @@ export const productsStateSlice = createSlice({
         cost: "$100.00",
         img: "https://res.cloudinary.com/mangud/image/upload/v1724357016/mariselaShopClient/Screen_Shot_2024-08-22_at_4.03.27_PM_j7t4lo.png",
         img2: "https://res.cloudinary.com/mangud/image/upload/v1724685369/mariselaShopClient/Screen_Shot_2024-08-26_at_11.15.58_AM_enynii.png",
+        stock: 0,
       },
       {
         id: 9,
@@ -105,6 +113,7 @@ export const productsStateSlice = createSlice({
         cost: "$100.00",
         img: "https://res.cloudinary.com/mangud/image/upload/v1724357016/mariselaShopClient/Screen_Shot_2024-08-22_at_4.03.27_PM_j7t4lo.png",
         img2: "https://res.cloudinary.com/mangud/image/upload/v1724685369/mariselaShopClient/Screen_Shot_2024-08-26_at_11.15.58_AM_enynii.png",
+        stock: 0,
       },
       {
         id: 10,
@@ -116,6 +125,7 @@ export const productsStateSlice = createSlice({
         cost: "$100.00",
         img: "https://res.cloudinary.com/mangud/image/upload/v1724357016/mariselaShopClient/Screen_Shot_2024-08-22_at_4.03.27_PM_j7t4lo.png",
         img2: "https://res.cloudinary.com/mangud/image/upload/v1724685369/mariselaShopClient/Screen_Shot_2024-08-26_at_11.15.58_AM_enynii.png",
+        stock: 0,
       },
       {
         id: 11,
@@ -127,6 +137,7 @@ export const productsStateSlice = createSlice({
         cost: "$100.00",
         img: "https://res.cloudinary.com/mangud/image/upload/v1724357016/mariselaShopClient/Screen_Shot_2024-08-22_at_4.03.27_PM_j7t4lo.png",
         img2: "https://res.cloudinary.com/mangud/image/upload/v1724685369/mariselaShopClient/Screen_Shot_2024-08-26_at_11.15.58_AM_enynii.png",
+        stock: 0,
       },
       {
         id: 12,
@@ -138,6 +149,7 @@ export const productsStateSlice = createSlice({
         cost: "$100.00",
         img: "https://res.cloudinary.com/mangud/image/upload/v1724357016/mariselaShopClient/Screen_Shot_2024-08-22_at_4.03.27_PM_j7t4lo.png",
         img2: "https://res.cloudinary.com/mangud/image/upload/v1724685369/mariselaShopClient/Screen_Shot_2024-08-26_at_11.15.58_AM_enynii.png",
+        stock: 0,
       },
     ],
     cartCount: 6,

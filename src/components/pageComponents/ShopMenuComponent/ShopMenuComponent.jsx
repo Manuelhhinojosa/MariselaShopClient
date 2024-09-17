@@ -28,7 +28,7 @@ export const ShopMenuComponent = () => {
         >
           prints
         </Link>
-        ***
+
         <Link
           to="/shopproducts"
           onClick={() => dispatch(setShowJewelleryToTrue())}

@@ -52,9 +52,12 @@ export const AdminComponent = () => {
                     <div>{prod.available ? "In Stock" : "Made to order"}</div>
                     <div>edit</div>
                     <div>delete</div>
+                    <div>stock: {prod.stock}</div>
                   </div>
                 </div>
                 <div className="longDescContainer">{prod.longDesc}</div>
+                <br />
+                **********
               </div>
             ))}
           </div>

@@ -64,7 +64,8 @@
 
     div:nth-child(2) {
       font-size: 0.8rem;
-      align-items: center;
+      align-items: start;
+      height: fit-content;
     }
   }
 }

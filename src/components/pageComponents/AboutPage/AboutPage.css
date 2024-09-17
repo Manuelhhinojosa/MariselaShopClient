@@ -54,6 +54,8 @@
   }
   .aboutPageContainer div:nth-child(2) {
     font-size: 0.8rem;
-    align-items: center;
+    align-items: start;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }/*# sourceMappingURL=AboutPage.css.map */
