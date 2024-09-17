@@ -129,6 +129,9 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .imgsContainer img {
+    width: 50px;
+  }
   .shopTextContainer div {
     font-size: 0.8rem;
   }

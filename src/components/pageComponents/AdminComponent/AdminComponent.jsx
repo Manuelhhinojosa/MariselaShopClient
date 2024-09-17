@@ -116,8 +116,9 @@ export const AdminComponent = () => {
                 <div>{`type: ${order.type}`}</div>
                 <div>{`cost: ${order.cost}`}</div>
                 <div>{`name of the client: ${order.nameOfClient}`}</div>
+                <div>{`email: ${order.email}`}</div>
                 <div>{`client's address: ${order.adress}`}</div>
-                <div>{`order status: ${order.status}`}</div>
+
                 <div>***</div>
               </div>
             ))}
