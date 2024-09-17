@@ -26,6 +26,9 @@ export const ReviewsPage = () => {
             <FaStar />
             <FaStar />
             <br />
+            <img src={el.img} alt="reviewImg" />
+            <img src={el.img2} alt="revireImg2" />
+            <br />
             <span>By {el.author}.</span>
           </div>
         ))}

@@ -12,6 +12,15 @@
   overflow: hidden;
   overflow-y: scroll;
 }
+.reviewsPageContainer div span {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.reviewsPageContainer div img {
+  height: 100px;
+  width: 100px;
+  margin: 1rem;
+}
 .reviewsPageContainer div div:nth-child(1) {
   font-size: 3rem;
   text-align: center;
