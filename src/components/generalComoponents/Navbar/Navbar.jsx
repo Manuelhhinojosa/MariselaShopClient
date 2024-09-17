@@ -1,11 +1,5 @@
 import React from "react";
 
-// Reacty hooks
-import { useState } from "react";
-
-// production state and functions
-import data from "../../../assets/data/data";
-
 //React Router 6
 import { Link } from "react-router-dom";
 
@@ -17,14 +11,23 @@ import { CiInstagram } from "react-icons/ci";
 import { CiShoppingCart } from "react-icons/ci";
 import { IoIosCloseCircle } from "react-icons/io";
 
+// redux
+import { useSelector, useDispatch } from "react-redux";
+import {
+  toggleShowNavbar,
+  setShowNavbarToFalse,
+} from "../../../redux/slices/staticState/logicSlice";
+
 export const Navbar = () => {
-  // state for production
-  const [toggleNavbar, setToggleNavbar] = useState(false);
+  // redux || state || reducers
+  const dispatch = useDispatch();
+  const logic = useSelector((state) => state.logicSlice);
+  const productionState = useSelector((state) => state.productsStateSlice);
 
   // sets toggleNavbar value accordin to the size of the scren
   const handleResize = () => {
     if (window.innerWidth >= 600) {
-      setToggleNavbar(false);
+      dispatch(setShowNavbarToFalse());
     }
   };
 
@@ -33,16 +36,17 @@ export const Navbar = () => {
   return (
     <div className="navbarContainer">
       <div className="hamNavar">
-        <p onClick={() => setToggleNavbar(!toggleNavbar)}>
-          {toggleNavbar ? <IoIosCloseCircle /> : "menu"}
+        <p onClick={() => dispatch(toggleShowNavbar())}>
+          {logic.showNavbar ? <IoIosCloseCircle /> : "menu"}
         </p>
       </div>
       <div
+        setShowNavbarToFalse
         className="hamNavbarList"
-        style={toggleNavbar ? { display: "flex" } : { display: "none" }}
+        style={logic.showNavbar ? { display: "flex" } : { display: "none" }}
       >
         <Link
-          onClick={() => setToggleNavbar(false)}
+          onClick={() => dispatch(setShowNavbarToFalse())}
           className="navbarLink"
           to="/"
         >
@@ -51,28 +55,28 @@ export const Navbar = () => {
         <Link
           className="navbarLink"
           to="/shopmenu"
-          onClick={() => setToggleNavbar(false)}
+          onClick={() => dispatch(setShowNavbarToFalse())}
         >
           shop
         </Link>
         <Link
           className="navbarLink"
           to="/about"
-          onClick={() => setToggleNavbar(false)}
+          onClick={() => dispatch(setShowNavbarToFalse())}
         >
           about
         </Link>
         <Link
           className="navbarLink"
           to="/faq"
-          onClick={() => setToggleNavbar(false)}
+          onClick={() => dispatch(setShowNavbarToFalse())}
         >
           faq
         </Link>
         <Link
           className="navbarLink"
           to="/reviews"
-          onClick={() => setToggleNavbar(false)}
+          onClick={() => dispatch(setShowNavbarToFalse())}
         >
           reviews
         </Link>
@@ -80,7 +84,7 @@ export const Navbar = () => {
         <Link
           className="navbarLink"
           to="/login"
-          onClick={() => setToggleNavbar(false)}
+          onClick={() => dispatch(setShowNavbarToFalse())}
         >
           login
         </Link>
@@ -88,12 +92,12 @@ export const Navbar = () => {
         <Link
           className="navbarLink"
           to="/contact"
-          onClick={() => setToggleNavbar(false)}
+          onClick={() => dispatch(setShowNavbarToFalse())}
         >
           contact
         </Link>
         <a
-          onClick={() => setToggleNavbar(false)}
+          onClick={() => dispatch(setShowNavbarToFalse())}
           className="navbarLink"
           href="https://www.instagram.com/"
           target="_"
@@ -103,9 +107,10 @@ export const Navbar = () => {
         <Link
           className="navbarLink"
           to="/cart"
-          onClick={() => setToggleNavbar(false)}
+          onClick={() => dispatch(setShowNavbarToFalse())}
         >
-          <CiShoppingCart className="icon" /> <span>{`${data.cartCount}`}</span>
+          <CiShoppingCart className="icon" />{" "}
+          <span>{productionState.cartCount}</span>
         </Link>
       </div>
 
@@ -140,7 +145,8 @@ export const Navbar = () => {
           <CiInstagram className="icon" />
         </a>
         <Link className="navbarLink" to="./cart">
-          <CiShoppingCart className="icon" /> <sup>{data.cartCount}</sup>
+          <CiShoppingCart className="icon" />{" "}
+          <sup>{productionState.cartCount}</sup>
         </Link>
       </div>
     </div>

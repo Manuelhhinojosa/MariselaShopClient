@@ -5,7 +5,10 @@ import { Link } from "react-router-dom";
 
 // redux
 import { useSelector, useDispatch } from "react-redux";
-import { toggleRenderJewellery } from "../../../redux/slices/staticState/logicSlice";
+import {
+  setShowJewelleryToTrue,
+  setShowJewelleryTofalse,
+} from "../../../redux/slices/staticState/logicSlice";
 
 // styles
 import "./ShopMenuComponent.scss";
@@ -20,7 +23,7 @@ export const ShopMenuComponent = () => {
       <div>
         <Link
           to="/shopproducts"
-          onClick={() => dispatch(toggleRenderJewellery())}
+          onClick={() => dispatch(setShowJewelleryTofalse())}
           className="shopMenuLinkBigScreenLink"
         >
           prints
@@ -28,7 +31,7 @@ export const ShopMenuComponent = () => {
         ***
         <Link
           to="/shopproducts"
-          onClick={() => dispatch(toggleRenderJewellery())}
+          onClick={() => dispatch(setShowJewelleryToTrue())}
           className="shopMenuLinkBigScreenLink"
         >
           jewellery
@@ -39,7 +42,7 @@ export const ShopMenuComponent = () => {
         <Link
           className="shopMenuLink"
           to="/shopproducts"
-          onClick={() => dispatch(toggleRenderJewellery())}
+          onClick={() => dispatch(setShowJewelleryTofalse())}
         >
           <img src={staticImages.mainShopMenuImageImageUrl} alt="linkImaage" />
         </Link>
@@ -48,7 +51,7 @@ export const ShopMenuComponent = () => {
         <Link
           className="shopMenuLink"
           to="/shopproducts"
-          onClick={() => dispatch(toggleRenderJewellery())}
+          onClick={() => dispatch(setShowJewelleryToTrue())}
         >
           <img src={staticImages.mainShopMenuImageImageUrl2} alt="linkImaage" />
         </Link>

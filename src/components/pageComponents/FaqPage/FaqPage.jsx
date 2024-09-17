@@ -3,16 +3,19 @@ import React from "react";
 // syles
 import "./FaqPage.scss";
 
-// page text
-import data from "../../../assets/data/data";
+// redux
+import { useSelector } from "react-redux";
 
 export const FaqPage = () => {
+  // redux || state || reducers
+  const productionState = useSelector((state) => state.productsStateSlice);
+
   return (
     <div className="faqPageContainer">
       <div className="faqContainer">
         <div>faqs</div>
-        {data.questionsAndAnswers.map((el, i) => (
-          <div qAC>{el}</div>
+        {productionState.questionsAndAnswers.map((el, i) => (
+          <div>{el}</div>
         ))}
       </div>
     </div>

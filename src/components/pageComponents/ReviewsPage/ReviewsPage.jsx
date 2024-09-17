@@ -6,15 +6,18 @@ import "./ReviewsPage.scss";
 // ract icons
 import { FaStar } from "react-icons/fa";
 
-// text data
-import data from "../../../assets/data/data";
+// redux
+import { useSelector } from "react-redux";
 
 export const ReviewsPage = () => {
+  // redux || state || reducers
+  const productionState = useSelector((state) => state.productsStateSlice);
+
   return (
     <div className="reviewsPageContainer">
       <div className="reviewsContainer">
         <div>reviews</div>
-        {data.reviews.map((el, i) => (
+        {productionState.reviews.map((el, i) => (
           <div key={i}>
             "{el.review}"<br /> <br />
             <FaStar />
@@ -22,7 +25,6 @@ export const ReviewsPage = () => {
             <FaStar />
             <FaStar />
             <FaStar />
-            <br />
             <br />
             <span>By {el.author}.</span>
           </div>

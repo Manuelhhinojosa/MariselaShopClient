@@ -17,7 +17,7 @@ export const Prod = () => {
   return (
     <>
       {logic.showJewellery
-        ? productsArrs.jelleryArr.map((j) => (
+        ? productsArrs.jewelleryArr.map((j) => (
             <div className="Container">
               <div className="imgContainer">
                 <Link to={`/shop/${j.id}`}>

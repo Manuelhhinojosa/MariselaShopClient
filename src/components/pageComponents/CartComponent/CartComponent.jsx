@@ -1,16 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// production state
-import data from "../../../assets/data/data";
-
 // styles
 import "./CartComponent.scss";
 
+// redux
+import { useSelector } from "react-redux";
+
 export const CartComponent = () => {
+  const productionState = useSelector((state) => state.productsStateSlice);
+
   return (
     <div className="cartPageContainer">
-      {data.cartCount === 0 ? (
+      {productionState.cartCount === 0 ? (
         <div className="emptyCartContainer">
           <div className="titleCont">shopping cartt</div>
           <div className="messageCont">
@@ -27,7 +29,7 @@ export const CartComponent = () => {
           <div className="titleContainer">shopping cart</div>
 
           <div className="cartItemsContainer">
-            {data.printsArr.map((p) => (
+            {productionState.printsArr.map((p) => (
               <div className="itemsCont">
                 <div>
                   <img src={p.img2} alt="" />

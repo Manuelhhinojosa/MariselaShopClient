@@ -1,7 +1,7 @@
 import "./App.scss";
 
-// production state
-import data from "../src/assets/data/data";
+// redux
+import { useSelector } from "react-redux";
 
 // React Router V6
 import { Routes, Route } from "react-router-dom";
@@ -24,6 +24,9 @@ import { Footer } from "./components/generalComoponents/Footer/Footer";
 import { ErrorPage } from "./components/pageComponents/ErrorPage/ErrorPage";
 
 function App() {
+  // redux || state || reducers
+  const productsArrs = useSelector((state) => state.productsStateSlice);
+
   return (
     <div>
       <Navbar />
@@ -32,14 +35,14 @@ function App() {
         <Route path="/shopmenu" element={<ShopMenuComponent />} />
         <Route path="/shopproducts" element={<Shop />} />
 
-        {data.jArr.map((prod) => (
+        {productsArrs.jewelleryArr.map((prod) => (
           <Route
             key={prod.id}
             path={`/shop/${prod.id}`}
             element={<SingleProduct />}
           />
         ))}
-        {data.printsArr.map((prod) => (
+        {productsArrs.printsArr.map((prod) => (
           <Route
             key={prod.id}
             path={`/shop/${prod.id}`}

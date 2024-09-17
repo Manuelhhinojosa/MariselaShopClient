@@ -3,20 +3,63 @@ import { createSlice } from "@reduxjs/toolkit";
 export const logicSlice = createSlice({
   name: "logicSlice",
   initialState: {
-    showJewellery: true,
+    showJewellery: false,
     showfirstImgSingleProd: true,
+    showNavbar: false,
+    showAllProducts: true,
+    showAddProduct: false,
+    showViewOrders: false,
   },
   reducers: {
-    toggleRenderJewellery: (state, action) => {
-      state.showJewellery = !state.showJewellery;
+    setShowJewelleryToTrue: (state, action) => {
+      state.showJewellery = true;
     },
+
+    setShowJewelleryTofalse: (state, action) => {
+      state.showJewellery = false;
+    },
+
     toggleShowfirstImgSingleProd: (state, action) => {
       state.showfirstImgSingleProd = !state.showfirstImgSingleProd;
+    },
+
+    toggleShowNavbar: (state, action) => {
+      state.showNavbar = !state.showNavbar;
+    },
+
+    setShowNavbarToFalse: (state, action) => {
+      state.showNavbar = false;
+    },
+    //
+    setShowAllProducts: (state, action) => {
+      state.showAllProducts = true;
+      state.showAddProduct = false;
+      state.showViewOrders = false;
+    },
+
+    setShowAddProduct: (state, action) => {
+      state.showAllProducts = false;
+      state.showAddProduct = true;
+      state.showViewOrders = false;
+    },
+
+    setShowViewOrders: (state, action) => {
+      state.showAllProducts = false;
+      state.showAddProduct = false;
+      state.showViewOrders = true;
     },
   },
 });
 
-export const { toggleRenderJewellery, toggleShowfirstImgSingleProd } =
-  logicSlice.actions;
+export const {
+  setShowJewelleryToTrue,
+  setShowJewelleryTofalse,
+  toggleShowfirstImgSingleProd,
+  toggleShowNavbar,
+  setShowNavbarToFalse,
+  setShowAllProducts,
+  setShowAddProduct,
+  setShowViewOrders,
+} = logicSlice.actions;
 
 export default logicSlice.reducer;

@@ -1,51 +1,40 @@
 import React from "react";
-// usestate react hook for production, this will be replaced by redux soon
-import { useState } from "react";
+
+// redux
+import { useSelector, useDispatch } from "react-redux";
+
+import {
+  setShowAllProducts,
+  setShowAddProduct,
+  setShowViewOrders,
+} from "../../../redux/slices/staticState/logicSlice.js";
 
 // styles
 import "./AdminComponent.scss";
 
-// state for production
-import data from "../../../assets/data/data.js";
-const allProductsArr = data.jArr.concat(data.printsArr);
-
 export const AdminComponent = () => {
-  // state for production
-  const [allProducts, setAllProducts] = useState(true);
-  const [addProduct, setAddProduct] = useState(false);
-  const [viewOrders, setViewOrders] = useState(false);
-
-  // production functions
-  const showAllProds = () => {
-    setAllProducts(true);
-    setAddProduct(false);
-    setViewOrders(false);
-  };
-
-  const showAddProduct = () => {
-    setAllProducts(false);
-    setAddProduct(true);
-    setViewOrders(false);
-  };
-
-  const showViewOrders = () => {
-    setAllProducts(false);
-    setAddProduct(false);
-    setViewOrders(true);
-  };
+  // redux || state || reducers
+  const dispatch = useDispatch();
+  const productionState = useSelector((state) => state.productsStateSlice);
+  const allProductsArr = productionState.jewelleryArr.concat(
+    productionState.printsArr
+  );
+  const logic = useSelector((state) => state.logicSlice);
 
   return (
     <div className="adiminComponentConatainer">
       <div className="adminNavbarContainer">
-        <div onClick={() => showAllProds()}>see all products</div>
-        <div onClick={() => showAddProduct()}>add a product</div>
-        <div onClick={() => showViewOrders()}>view orders</div>
+        <div onClick={() => dispatch(setShowAllProducts())}>
+          see all products
+        </div>
+        <div onClick={() => dispatch(setShowAddProduct())}>add a product</div>
+        <div onClick={() => dispatch(setShowViewOrders())}>view orders</div>
       </div>
 
       <div className="mainAdminContainer">
-        {allProducts === true &&
-        addProduct === false &&
-        viewOrders === false ? (
+        {logic.showAllProducts === true &&
+        logic.showAddProduct === false &&
+        logic.showViewOrders === false ? (
           <div className="allProductsContainer">
             <div className="allProductsTitleContainer">all products</div>
             {allProductsArr.map((prod) => (
@@ -73,9 +62,9 @@ export const AdminComponent = () => {
           ""
         )}
 
-        {allProducts === false &&
-        addProduct === true &&
-        viewOrders === false ? (
+        {logic.showAllProducts === false &&
+        logic.showAddProduct === true &&
+        logic.showViewOrders === false ? (
           <div className="addProductContainer">
             <form>
               <input type="file" name="files" id="files" />
@@ -109,12 +98,12 @@ export const AdminComponent = () => {
           ""
         )}
 
-        {allProducts === false &&
-        addProduct === false &&
-        viewOrders === true ? (
+        {logic.showAllProducts === false &&
+        logic.showAddProduct === false &&
+        logic.showViewOrders === true ? (
           <div className="ordersContainer">
             <div className="ordersTitle">orders</div>
-            {data.orders.map((order) => (
+            {productionState.ordersArr.map((order) => (
               <div className="orderContainer">
                 <div>***</div>
                 <div>{`date: ${order.date}`}</div>
