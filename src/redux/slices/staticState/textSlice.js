@@ -25,7 +25,7 @@ export const textSlice = createSlice({
     reviews: [
       {
         review:
-          " **“Absolutely stunning craftsmanship! I purchased a pair of earrings and a print, and both pieces are exquisite. The attention to detail is incredible, and I love knowing that each item is handmade. Riga Design has become my go-to for unique, artisanal jewelry and decor!”**",
+          "**“Absolutely stunning craftsmanship! I purchased a pair of earrings and a print, and both pieces are exquisite. The attention to detail is incredible, and I love knowing that each item is handmade. Riga Design has become my go-to for unique, artisanal jewelry and decor!”**",
         author: "Alexandra Lancaster",
         img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
         img2: "https://res.cloudinary.com/mangud/image/upload/v1724685369/mariselaShopClient/Screen_Shot_2024-08-26_at_11.15.58_AM_enynii.png",

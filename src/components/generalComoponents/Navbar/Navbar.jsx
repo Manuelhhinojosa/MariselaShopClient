@@ -71,7 +71,7 @@ export const Navbar = () => {
           to="/faq"
           onClick={() => dispatch(setShowNavbarToFalse())}
         >
-          faq
+          faqs
         </Link>
         <Link
           className="navbarLink"
@@ -125,7 +125,7 @@ export const Navbar = () => {
           about
         </Link>
         <Link className="navbarLink" to="./faq">
-          faq
+          faqs
         </Link>
         <Link className="navbarLink" to="./reviews">
           reviews
