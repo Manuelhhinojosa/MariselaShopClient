@@ -8,13 +8,13 @@ import { useSelector } from "react-redux";
 
 export const FaqPage = () => {
   // redux || state || reducers
-  const productionState = useSelector((state) => state.productsStateSlice);
+  const staticText = useSelector((state) => state.textSlice);
 
   return (
     <div className="faqPageContainer">
       <div className="faqContainer">
         <div>faqs</div>
-        {productionState.questionsAndAnswers.map((el, i) => (
+        {staticText.faqs.map((el, i) => (
           <div>{el}</div>
         ))}
       </div>

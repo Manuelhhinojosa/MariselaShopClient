@@ -14,16 +14,20 @@
     overflow: hidden;
     overflow-y: scroll;
 
-    div:nth-child(1) {
-      font-size: 3rem;
-      text-align: center;
-    }
-
     div {
       width: auto;
       height: auto;
       margin: 2rem;
       text-align: justify;
+      font-weight: 300;
+    }
+
+    div:nth-child(even) {
+      font-weight: 700;
+    }
+    div:nth-child(1) {
+      font-size: 3rem;
+      text-align: center;
       font-weight: 300;
     }
   }

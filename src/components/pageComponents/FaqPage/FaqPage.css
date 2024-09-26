@@ -12,15 +12,19 @@
   overflow: hidden;
   overflow-y: scroll;
 }
-.faqPageContainer .faqContainer div:nth-child(1) {
-  font-size: 3rem;
-  text-align: center;
-}
 .faqPageContainer .faqContainer div {
   width: auto;
   height: auto;
   margin: 2rem;
   text-align: justify;
+  font-weight: 300;
+}
+.faqPageContainer .faqContainer div:nth-child(even) {
+  font-weight: 700;
+}
+.faqPageContainer .faqContainer div:nth-child(1) {
+  font-size: 3rem;
+  text-align: center;
   font-weight: 300;
 }
 

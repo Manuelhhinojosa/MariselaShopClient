@@ -8,6 +8,20 @@ export const textSlice = createSlice({
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, dolor dicta? Praesentium tempora quas rem voluptatibus officia facilis mollitia, in quidem veniam molestiae nostrum alias fugiat nihil repudiandae iste at. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit magnam animi dolor sapiente eum rerum molestiae maxime. Pariatur eum eligendi modi! Laudantium ratione ullam dignissimos. Ullam dicta sequi maxime ut!",
     aboutText:
       "Hello! Riga Design is a brand based in Guadalajara, Mexico, inspired by the vibrant colors and rich textures of cities around the world. My mission is to bring you unique, handcrafted pieces that allow you to wear or showcase a fragment of the world’s beauty in your everyday life. Whether you choose to adorn yourself or your home, Riga Design lets you carry a limited edition piece with you wherever you go. The creator Marisela Fierro is a multifaceted visual artist and Art Educator with a passion for exploring the interplay between form and material. Her work seamlessly blends minimalist aesthetics with organic elements, creating a style that is both refined and dynamic. Marisela’s creative process is driven by a curiosity to push the boundaries of traditional design, resulting in pieces that are not only visually striking but also thought-provoking. Her dedication to craftsmanship and her innovative approach to art and design invite viewers to engage with her work on a deeper, more personal level. Web page: https://mariselafierro.netlify.app/ ",
+    faqs: [
+      "EARRING MATERIALS",
+      "Riga Design earrings are hand-stitched from Japanese glass beads, nylon thread, and sterling silver ear wires unless otherwise state.",
+      "PRINTS MATERIALS",
+      "High-quality Giclée print on 200gsm natural fiber paper unless otherwise state.",
+      "CARE INSTRUCTIONS",
+      "For the safest keeping, please store your earrings by either hanging or laying flat in a cool, dry place. While traveling feel free to re-use the case or box that your earrings came in.",
+      "REPAIRS + REPLACEMENTS",
+      "If an earring becomes damaged, please contact me and I will be happy to fix the earring for minimal cost. If you happen to lose an earring, no worries! I can replace it at cost (50% of the original pair price).",
+      "RETURNS",
+      "Riga Design is not currently accepting returns unless an item was considerably damaged during shipping. If you are unhappy with your purchase please reach out directly via marisela.fierro@gmail.com so we can work something out. ",
+      "LOST PACKAGES",
+      "Riga Design is not responsible for lost or stolen packages. You should receive an email with shipping notifications when your package is on the way. Please keep in mind shipping may currently be delayed due to international.",
+    ],
   },
   reducers: {},
 });
