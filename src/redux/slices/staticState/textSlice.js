@@ -22,6 +22,43 @@ export const textSlice = createSlice({
       "LOST PACKAGES",
       "Riga Design is not responsible for lost or stolen packages. You should receive an email with shipping notifications when your package is on the way. Please keep in mind shipping may currently be delayed due to international.",
     ],
+    reviews: [
+      {
+        review:
+          " **“Absolutely stunning craftsmanship! I purchased a pair of earrings and a print, and both pieces are exquisite. The attention to detail is incredible, and I love knowing that each item is handmade. Riga Design has become my go-to for unique, artisanal jewelry and decor!”**",
+        author: "Alexandra Lancaster",
+        img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
+        img2: "https://res.cloudinary.com/mangud/image/upload/v1724685369/mariselaShopClient/Screen_Shot_2024-08-26_at_11.15.58_AM_enynii.png",
+      },
+      {
+        review:
+          "**“I’ve never seen such a perfect blend of color and texture in jewelry before. The earrings I bought from Riga Design are not only beautiful but also lightweight and comfortable to wear all day. They add a pop of elegance to any outfit!”**",
+        author: "Isabel Placencia",
+        img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
+        img2: "https://res.cloudinary.com/mangud/image/upload/v1724685369/mariselaShopClient/Screen_Shot_2024-08-26_at_11.15.58_AM_enynii.png",
+      },
+      {
+        review:
+          "**“Riga Design's prints are a wonderful way to bring a touch of global artistry into my home. The colors are vibrant, and the quality of the paper is fantastic. I’ve already received so many compliments on the piece I hung in my living room!”**",
+        author: "Geronima Gonzalez",
+        img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
+        img2: "https://res.cloudinary.com/mangud/image/upload/v1724685369/mariselaShopClient/Screen_Shot_2024-08-26_at_11.15.58_AM_enynii.png",
+      },
+      {
+        review:
+          "**“The earrings from Riga Design are truly wearable art. Each piece tells a story, and I love that they are inspired by different cities around the world. The craftsmanship is impeccable, and they make me feel special every time I wear them.”**",
+        author: "Anita Arroyo",
+        img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
+        img2: "https://res.cloudinary.com/mangud/image/upload/v1724685369/mariselaShopClient/Screen_Shot_2024-08-26_at_11.15.58_AM_enynii.png",
+      },
+      {
+        review:
+          "**“I am so impressed by the quality and uniqueness of Riga Design’s products! The combination of contemporary design with traditional craftsmanship is amazing. Whether it’s a pair of earrings or a print, every piece feels like a little treasure.”**",
+        author: "Mara H",
+        img: "https://res.cloudinary.com/mangud/image/upload/v1724854079/mariselaShopClient/Screen_Shot_2024-08-28_at_10.05.40_AM_zdwch8.png",
+        img2: "https://res.cloudinary.com/mangud/image/upload/v1724685369/mariselaShopClient/Screen_Shot_2024-08-26_at_11.15.58_AM_enynii.png",
+      },
+    ],
   },
   reducers: {},
 });

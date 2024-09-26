@@ -99,7 +99,7 @@ export const Navbar = () => {
         <a
           onClick={() => dispatch(setShowNavbarToFalse())}
           className="navbarLink"
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/riga_designn"
           target="_"
         >
           <CiInstagram className="icon" />
@@ -141,7 +141,11 @@ export const Navbar = () => {
         <Link className="navbarLink" to="./contact">
           contact
         </Link>
-        <a className="navbarLink" href="https://www.instagram.com/" target="_">
+        <a
+          className="navbarLink"
+          href="https://www.instagram.com/riga_designn"
+          target="_"
+        >
           <CiInstagram className="icon" />
         </a>
         <Link className="navbarLink" to="./cart">

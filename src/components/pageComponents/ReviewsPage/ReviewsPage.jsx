@@ -11,13 +11,13 @@ import { useSelector } from "react-redux";
 
 export const ReviewsPage = () => {
   // redux || state || reducers
-  const productionState = useSelector((state) => state.productsStateSlice);
+  const staticText = useSelector((state) => state.textSlice);
 
   return (
     <div className="reviewsPageContainer">
       <div className="reviewsContainer">
         <div>reviews</div>
-        {productionState.reviews.map((el, i) => (
+        {staticText.reviews.map((el, i) => (
           <div key={i}>
             "{el.review}"<br /> <br />
             <FaStar />
