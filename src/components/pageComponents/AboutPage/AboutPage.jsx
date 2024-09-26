@@ -17,7 +17,22 @@ export const AboutPage = () => {
         <img src={staticImages.aboutImageUrl} alt="aboutImage" />
       </div>
       <div className="aboutTextContainer">
-        <p> {staticText.aboutText}</p>
+        <p>
+          <span>{staticText.aboutText.slice(0, 6)}</span>
+          <br />
+          {staticText.aboutText.slice(7, 409)}
+          <br />
+          <br />
+          <br />
+          <span>{staticText.aboutText.slice(410, 421)}</span>
+          <br />
+          {staticText.aboutText.slice(422, 1013)}
+          <br />
+          <br />
+          <a href="https://mariselafierro.netlify.app/">
+            Visit creator's site & blog
+          </a>
+        </p>
       </div>
     </div>
   );
